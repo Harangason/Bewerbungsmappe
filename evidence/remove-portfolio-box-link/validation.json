@@ -1,0 +1,10 @@
+{
+  "box_03_has_no_link": true,
+  "only_requested_anchor_removed": true,
+  "four_project_examples_preserved": true,
+  "unused_button_styles_removed": true,
+  "served_versions": {
+    "lernstudio-zweit/dist/index.html": "9ff15cd577e6e5b3ed381f923043d47033bed742a4b43a102b48c54d1b1057dc",
+    "lernstudio-zweit/dist/cv.css": "70f25a7f15ab04f8017fd0186de163244d536672fdf4c6364d94cedd56da4d9e"
+  }
+}

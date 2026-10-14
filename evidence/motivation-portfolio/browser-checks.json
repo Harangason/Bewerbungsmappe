@@ -1,0 +1,22 @@
+{
+  "english": {
+    "draft": "Draft",
+    "label": "Explore my project portfolio\n↗",
+    "mismatches": [],
+    "urls": [
+      "https://portfolio-martin-drexler.vercel.app/projects/1",
+      "https://portfolio-martin-drexler.vercel.app/projects/4",
+      "https://portfolio-martin-drexler.vercel.app/projects/2",
+      "https://portfolio-martin-drexler.vercel.app/projects/5"
+    ]
+  },
+  "mobile": {
+    "cardsFit": true,
+    "linkWidth": 297,
+    "overflow": false
+  },
+  "visibleLink": true,
+  "target": "_blank",
+  "rel": "noopener noreferrer",
+  "errors": []
+}

@@ -1,0 +1,7 @@
+{
+  "only_five_paragraphs_inside_details": true,
+  "header_and_claim_outside_details": true,
+  "all_existing_paragraphs_unchanged": true,
+  "default_collapsed": true,
+  "served_html_matches": true
+}

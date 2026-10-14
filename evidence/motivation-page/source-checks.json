@@ -1,0 +1,22 @@
+{
+  "remaining_cv_content_preserved": true,
+  "portrait_preserved": true,
+  "workflow_steps": 6,
+  "html_structure": "PASSED",
+  "unique_ids_and_controls": "PASSED",
+  "confidentiality_scope": "general_methods_no_company_or_project_identifiers",
+  "training_sources": [
+    "HR_VORBEREITUNG.md",
+    "existing CV",
+    "user clarification on concept development, constraints, software and personal projects"
+  ],
+  "print_css_exposes_all_steps": true,
+  "javascript_syntax": "PASSED",
+  "versions": {
+    "lernstudio-zweit/dist/index.html": "19b063eb219a6defaf746af59fe985fd0717f502f3283500b5393b3491b42bc7",
+    "lernstudio-zweit/dist/cv.css": "01a1d6f5c861264f9b68155d3d4f0039c7667d3b46ff3e8d01ac0cda16600b4f",
+    "lernstudio-zweit/dist/cv.js": "51635a5013458a2559ef5ec6b9dd6fb18f0a2b37c7ea278b5efc186ca1d88fe4",
+    "lernstudio-zweit/server.mjs": "e1c697ff9e53af44e8f0f31245183e347c24c5ab8e02b045de8e3653ca5f16fa",
+    "lernstudio-zweit/README.md": "0039829557719b59c6f58f115c1646e5fe6754c9a3df3c3a2103d28365658ab4"
+  }
+}

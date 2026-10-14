@@ -1,0 +1,13 @@
+{
+  "html_structure": "PASSED",
+  "initially_collapsed": true,
+  "all_existing_text_preserved": true,
+  "all_translation_meanings_preserved": true,
+  "english_ampersands_corrected": true,
+  "motivation_paragraphs": 6,
+  "javascript_syntax": "PASSED",
+  "served_versions": {
+    "lernstudio-zweit/dist/index.html": "8422fe47976ba4cf6b53ef4509012256483f58003613297ff626ce0b40b6dd20",
+    "lernstudio-zweit/dist/cv.js": "6448202463bc2f5eb69add84966f1c4e54bd7cfb6b3a6b59f0f97ed6a6146c52"
+  }
+}

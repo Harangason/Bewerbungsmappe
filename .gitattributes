@@ -1,0 +1,9 @@
+# Consistent line endings for this project.
+* text=auto eol=lf
+
+# Windows startup and process-state files.
+*.ps1 text eol=crlf
+*.pid text eol=crlf
+
+# Archived patches may contain embedded binary data; preserve their bytes.
+*.patch -text

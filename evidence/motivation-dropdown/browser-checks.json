@@ -1,0 +1,26 @@
+{
+  "initial": {
+    "open": null,
+    "headerVisible": true,
+    "contentVisible": false
+  },
+  "opened": {
+    "open": "",
+    "contentVisible": true
+  },
+  "english": {
+    "heading": "My Motivation",
+    "contentVisible": true,
+    "translationMismatches": 0
+  },
+  "keyboard": {
+    "headerVisible": true,
+    "contentVisible": false
+  },
+  "mobile": {
+    "headerWidth": 339,
+    "heading": "My Motivation",
+    "overflow": false
+  },
+  "errors": []
+}

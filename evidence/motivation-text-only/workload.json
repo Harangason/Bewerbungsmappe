@@ -1,0 +1,126 @@
+{
+  "repository": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2",
+  "kind": "implementation",
+  "modify_code": true,
+  "revision_before": {
+    "lernstudio-zweit/dist/index.html": "8422fe47976ba4cf6b53ef4509012256483f58003613297ff626ce0b40b6dd20"
+  },
+  "required_outcomes": [
+    "only_five_paragraphs_collapse"
+  ],
+  "validation_requirements": [
+    "preserved_text_and_visible_claim",
+    "browser_toggle_and_language"
+  ],
+  "unresolved_decisions": [],
+  "files_changed": [
+    "lernstudio-zweit/dist/index.html"
+  ],
+  "before": [
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-text-only\\before.html",
+      "sha256": "8422fe47976ba4cf6b53ef4509012256483f58003613297ff626ce0b40b6dd20"
+    }
+  ],
+  "after": [
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-text-only\\after.html",
+      "sha256": "a06bebf202396fc4156b4dda4a3ddd4754667a56b31ebec04096093b65674f11"
+    }
+  ],
+  "diff": [
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-text-only\\diff.patch",
+      "sha256": "f490ab071281b5656e2137bc1ade33b177e16700bfbfd7f097a01f2504bc89bb"
+    }
+  ],
+  "outcomes": {
+    "only_five_paragraphs_collapse": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-text-only\\browser-checks.json",
+          "sha256": "8bd777e7db4310fc4af34e4fe81b34db1510f8326904f58a41649e34f7e8605e"
+        },
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-text-only\\preview.png",
+          "sha256": "e603b5078911f75a9d565876c65fc7bb3eb5031023a119421ad2c55495c2754c"
+        }
+      ]
+    }
+  },
+  "validations": {
+    "preserved_text_and_visible_claim": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-text-only\\validation.json",
+          "sha256": "5dcf7eb0a14debc11be2fca2864b63c59355bf5deae29fff5bbf51b7863921da"
+        }
+      ]
+    },
+    "browser_toggle_and_language": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-text-only\\browser-checks.json",
+          "sha256": "8bd777e7db4310fc4af34e4fe81b34db1510f8326904f58a41649e34f7e8605e"
+        },
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-text-only\\preview.png",
+          "sha256": "e603b5078911f75a9d565876c65fc7bb3eb5031023a119421ad2c55495c2754c"
+        }
+      ]
+    }
+  },
+  "remaining_findings": [],
+  "delivery": {
+    "decision": "YES",
+    "authorization": "User clarified that only the five motivation paragraphs belong in the collapsible area; canonical local HTML is served directly.",
+    "target": "http://localhost:25001/",
+    "tested_version": "a06bebf202396fc4156b4dda4a3ddd4754667a56b31ebec04096093b65674f11",
+    "running_version": "a06bebf202396fc4156b4dda4a3ddd4754667a56b31ebec04096093b65674f11",
+    "checks": {
+      "release": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-text-only\\validation.json",
+            "sha256": "5dcf7eb0a14debc11be2fca2864b63c59355bf5deae29fff5bbf51b7863921da"
+          }
+        ]
+      },
+      "deployment": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-text-only\\validation.json",
+            "sha256": "5dcf7eb0a14debc11be2fca2864b63c59355bf5deae29fff5bbf51b7863921da"
+          }
+        ]
+      },
+      "health": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-text-only\\validation.json",
+            "sha256": "5dcf7eb0a14debc11be2fca2864b63c59355bf5deae29fff5bbf51b7863921da"
+          }
+        ]
+      },
+      "functional": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-text-only\\browser-checks.json",
+            "sha256": "8bd777e7db4310fc4af34e4fe81b34db1510f8326904f58a41649e34f7e8605e"
+          },
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-text-only\\preview.png",
+            "sha256": "e603b5078911f75a9d565876c65fc7bb3eb5031023a119421ad2c55495c2754c"
+          }
+        ]
+      }
+    }
+  }
+}

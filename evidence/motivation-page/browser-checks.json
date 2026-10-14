@@ -1,0 +1,84 @@
+{
+  "initial": {
+    "pageVisible": true,
+    "coverVisible": false,
+    "cvVisible": false,
+    "title": "Martin Drexler · Meine Motivation"
+  },
+  "steps": [
+    {
+      "step": "problem",
+      "pressed": "true",
+      "visiblePanels": [
+        "workflow-problem"
+      ]
+    },
+    {
+      "step": "interfaces",
+      "pressed": "true",
+      "visiblePanels": [
+        "workflow-interfaces"
+      ]
+    },
+    {
+      "step": "constraints",
+      "pressed": "true",
+      "visiblePanels": [
+        "workflow-constraints"
+      ]
+    },
+    {
+      "step": "concept",
+      "pressed": "true",
+      "visiblePanels": [
+        "workflow-concept"
+      ]
+    },
+    {
+      "step": "software",
+      "pressed": "true",
+      "visiblePanels": [
+        "workflow-software"
+      ]
+    },
+    {
+      "step": "validation",
+      "pressed": "true",
+      "visiblePanels": [
+        "workflow-validation"
+      ]
+    }
+  ],
+  "english": {
+    "cvLink": "/?lang=en#profil",
+    "label": "Workflow steps",
+    "lang": "en",
+    "mismatches": [],
+    "title": "Martin Drexler · My Motivation"
+  },
+  "toCv": {
+    "cvVisible": true,
+    "motivationVisible": false,
+    "language": "en"
+  },
+  "reload": {
+    "pageVisible": true,
+    "language": "en"
+  },
+  "backToCover": {
+    "coverVisible": true,
+    "language": "en"
+  },
+  "mobile": {
+    "headerOverflow": false,
+    "overflow": false,
+    "width": 390,
+    "workflowButtons": 6
+  },
+  "keyboard": true,
+  "errors": [],
+  "legacyLink": {
+    "pageVisible": true,
+    "cvVisible": false
+  }
+}

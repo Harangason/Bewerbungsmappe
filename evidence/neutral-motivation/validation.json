@@ -1,0 +1,8 @@
+{
+  "neutral_motivation": "PASSED",
+  "scope_only_motivation_section": "PASSED",
+  "html_parse": "PASSED",
+  "served_revision": "de5a0cbad0d7c6696a99a8cab16eef17114dfa584a4b83ec99fe028fb3d46d83",
+  "health": "PASSED",
+  "url": "http://localhost:25001/#motivation"
+}

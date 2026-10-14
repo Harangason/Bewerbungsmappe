@@ -1,0 +1,28 @@
+--- before/index.html
++++ after/index.html
+@@ -123,20 +123,19 @@
+         </div>
+         <div class="motivation-header">
+           <div>
+-            <span class="eyebrow">BEWERBUNG · DEUTSCHES ZENTRUM FÜR LUFT- UND RAUMFAHRT</span>
+-            <h2 id="motivation-title">Technischer Mitarbeiter, Ingenieur (5051)</h2>
+-            <p>Deutsches Zentrum für Luft- und Raumfahrt · Harzstraße 1 · 39444 Hecklingen</p>
++            <span class="eyebrow">MOTIVATION</span>
++            <h2 id="motivation-title">Motivationsschreiben</h2>
+           </div>
+           <time class="motivation-date" datetime="2026-10-12">Magdeburg, 12. Oktober 2026</time>
+         </div>
+         <p class="motivation-claim">Ich verbinde belastbare Systemarchitektur mit intelligenter Softwareentwicklung, damit komplexe technische Systeme nachvollziehbar, sicher und zukunftsfähig werden.</p>
+         <div class="motivation-copy">
+           <p>Sehr geehrte Damen und Herren,</p>
+-          <p>die Verbindung von Systems Engineering, digitaler Systemarchitektur und künstlicher Intelligenz prägt meinen beruflichen Weg. Als E/E-Systemarchitekt und Projektleiter bringe ich mehr als zehn Jahre Erfahrung in der Entwicklung komplexer Systeme mit. Diese Perspektive möchte ich beim Deutschen Zentrum für Luft- und Raumfahrt einbringen und um aktuelle digitale Methoden erweitern.</p>
+-          <p>Bei der Magna Engineering &amp; Infotainment GmbH konzipierte und modellierte ich Fahrzeug-, Fahrerassistenz- und Informationsfunktionen in modernen MBSE-Toolchains. Dazu gehörten modulare Fahrerassistenzsysteme, Architekturkonzepte für hochautomatisiertes Fahren auf Level 4 sowie die Analyse von Bus- und Kommunikationsstrukturen.</p>
++          <p>die Verbindung von Systems Engineering, digitaler Systemarchitektur und künstlicher Intelligenz prägt meinen beruflichen Weg. Als E/E-Systemarchitekt und Projektleiter bringe ich mehr als zehn Jahre Erfahrung in der Entwicklung komplexer Systeme mit. Diese Perspektive möchte ich in neue Aufgaben einbringen und um aktuelle digitale Methoden erweitern.</p>
++          <p>In meiner bisherigen Tätigkeit konzipierte und modellierte ich Fahrzeug-, Fahrerassistenz- und Informationsfunktionen in modernen MBSE-Toolchains. Dazu gehörten modulare Fahrerassistenzsysteme, Architekturkonzepte für hochautomatisiertes Fahren auf Level 4 sowie die Analyse von Bus- und Kommunikationsstrukturen.</p>
+           <p>Meine besondere Stärke liegt an der Schnittstelle von Requirements Engineering, Funktionsentwicklung und technischer Architektur: Ich überführe komplexe Anforderungen in nachvollziehbare Modelle und sichere die Traceability von Anforderungen über Funktionen und Schnittstellen bis zu Tests und technischen Nachweisen. Mit SysML und PREEvision mache ich Zusammenhänge transparent und unterstütze fundierte Architekturentscheidungen.</p>
+           <p>Durch Entwicklungs- und Leistungstests, Datenlogger-Auswertungen und funktionsübergreifende Fehleranalysen kenne ich zugleich das reale Systemverhalten und die Anforderungen an seine Absicherung. Aktuell vertiefe ich meine Kenntnisse als AI Engineer in Generativer KI, Machine Learning, Datenverarbeitung und Python. In eigenen Projekten verbinde ich diese Methoden bereits mit MBSE, Requirements Engineering, Test, Safety und Security sowie der Analyse komplexer Kommunikationssysteme.</p>
+-          <p>Mich reizt an der Position, Systemengineering und praktische Entwicklung mit Forschung, Digitalisierung und künstlicher Intelligenz zusammenzuführen. Ich bringe dafür sowohl die Erfahrung eines Systemingenieurs als auch die Umsetzungsperspektive eines praxisorientierten Software- und KI-Entwicklers mit. Nach meiner beruflichen Neuorientierung stehe ich Ihnen kurzfristig zur Verfügung. Meine Projekte und technischen Konzepte erläutere ich gerne in einem persönlichen Gespräch.</p>
++          <p>Mein Ziel ist es, Systemengineering und praktische Entwicklung mit Digitalisierung und künstlicher Intelligenz zusammenzuführen. Ich bringe dafür sowohl die Erfahrung eines Systemingenieurs als auch die Umsetzungsperspektive eines praxisorientierten Software- und KI-Entwicklers mit. Nach meiner beruflichen Neuorientierung stehe ich für neue Aufgaben kurzfristig zur Verfügung. Meine Projekte und technischen Konzepte erläutere ich gerne in einem persönlichen Gespräch.</p>
+           <div class="motivation-signoff"><p>Mit freundlichen Grüßen</p><strong>Martin Drexler</strong></div>
+         </div>
+       </section>

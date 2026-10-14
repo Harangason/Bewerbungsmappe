@@ -1,0 +1,12 @@
+{
+  "existing_cv_content_preserved": true,
+  "existing_styles_preserved": true,
+  "javascript_syntax": "PASSED",
+  "served_versions": {
+    "lernstudio-zweit/dist/index.html": "8daf0ff38151ade38c0e813c7aa55795dcfcb1e167394e4f84b5e6e449e3d825",
+    "lernstudio-zweit/dist/cv.css": "c09d3a3fc3f3ad527c42f504bf92fa853d51b3a759b7ae81c0e49805024e63af",
+    "lernstudio-zweit/dist/cv.js": "273ad275f5246e1f87c8f53b58a5aa5362c03c6903e97105c9cc93a5a4029c0a"
+  },
+  "photo": "PASSED",
+  "original_photo_sha256": "51b7fee1e44d6676e89face267da5234c8ef99e1572c0610d842b5b838579d8b"
+}

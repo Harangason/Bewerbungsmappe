@@ -1,0 +1,10 @@
+--- before/index.html
++++ after/index.html
+@@ -55,6 +55,7 @@
+             <a href="tel:+491723914882">+49 172 3914882</a>
+             <address>Rodensleber Weg 20<br>39110 Magdeburg</address>
+             <a class="cover-external" href="https://portfolio-martin-drexler.vercel.app/" target="_blank" rel="noopener noreferrer" data-en="Project portfolio ↗">Projektportfolio ↗</a>
++            <a class="cover-external" href="https://www.linkedin.com/in/martin-drexler-51668b25a" target="_blank" rel="noopener noreferrer" data-en="LinkedIn profile ↗">LinkedIn-Profil ↗</a>
+           </section>
+         </aside>
+       </div>

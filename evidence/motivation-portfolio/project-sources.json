@@ -1,0 +1,26 @@
+{
+  "source": "https://portfolio-martin-drexler.vercel.app/",
+  "retrieval": "HTTP 200; public HTML text and project hrefs inspected",
+  "projects": [
+    {
+      "name": "Engineering Intelligence Platform",
+      "url": "https://portfolio-martin-drexler.vercel.app/projects/1",
+      "status": "not labelled"
+    },
+    {
+      "name": "Network Intelligence Simulator",
+      "url": "https://portfolio-martin-drexler.vercel.app/projects/4",
+      "status": "not labelled"
+    },
+    {
+      "name": "Solar Mission Intelligence",
+      "url": "https://portfolio-martin-drexler.vercel.app/projects/2",
+      "status": "Experimental"
+    },
+    {
+      "name": "Commissioning Companion",
+      "url": "https://portfolio-martin-drexler.vercel.app/projects/5",
+      "status": "Draft"
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "repository": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2",
+  "kind": "implementation",
+  "modify_code": true,
+  "revision_before": {
+    "lernstudio-zweit/dist/index.html": "aca76e2c32db44d89c8d9a51cdd9f44956db7e5ce470632d25def86e99bf3076"
+  },
+  "required_outcomes": [
+    "motivation_uses_available_width"
+  ],
+  "validation_requirements": [
+    "scope_and_served_css"
+  ],
+  "unresolved_decisions": [],
+  "files_changed": [
+    "lernstudio-zweit/dist/index.html"
+  ],
+  "before": [
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-width\\before.html",
+      "sha256": "aca76e2c32db44d89c8d9a51cdd9f44956db7e5ce470632d25def86e99bf3076"
+    }
+  ],
+  "after": [
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-width\\after.html",
+      "sha256": "0c8266473d1f58dd6d176bb9b5515f702812a9d6c130321f4a6583abe23cc11b"
+    }
+  ],
+  "diff": [
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-width\\diff.patch",
+      "sha256": "e4e8e6ac25ebb15c317417bbb68ef98dbfc9a8ee9f75474b5070bd59d875ae40"
+    }
+  ],
+  "outcomes": {
+    "motivation_uses_available_width": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-width\\validation.json",
+          "sha256": "0eaddccb63802b6aa4aa45e6469c9c170fecf4a8f047869004ffa43d050cac6c"
+        }
+      ]
+    }
+  },
+  "validations": {
+    "scope_and_served_css": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-width\\validation.json",
+          "sha256": "0eaddccb63802b6aa4aa45e6469c9c170fecf4a8f047869004ffa43d050cac6c"
+        }
+      ]
+    }
+  },
+  "remaining_findings": [],
+  "delivery": {
+    "decision": "YES",
+    "authorization": "User requested text to use the empty right area in the local page; the server reads edited HTML directly.",
+    "target": "http://localhost:25001/",
+    "tested_version": "0c8266473d1f58dd6d176bb9b5515f702812a9d6c130321f4a6583abe23cc11b",
+    "running_version": "0c8266473d1f58dd6d176bb9b5515f702812a9d6c130321f4a6583abe23cc11b",
+    "checks": {
+      "release": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-width\\validation.json",
+            "sha256": "0eaddccb63802b6aa4aa45e6469c9c170fecf4a8f047869004ffa43d050cac6c"
+          }
+        ]
+      },
+      "deployment": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-width\\validation.json",
+            "sha256": "0eaddccb63802b6aa4aa45e6469c9c170fecf4a8f047869004ffa43d050cac6c"
+          }
+        ]
+      },
+      "health": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-width\\validation.json",
+            "sha256": "0eaddccb63802b6aa4aa45e6469c9c170fecf4a8f047869004ffa43d050cac6c"
+          }
+        ]
+      },
+      "functional": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-width\\validation.json",
+            "sha256": "0eaddccb63802b6aa4aa45e6469c9c170fecf4a8f047869004ffa43d050cac6c"
+          }
+        ]
+      }
+    }
+  }
+}

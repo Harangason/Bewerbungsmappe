@@ -1,0 +1,54 @@
+--- before/index.html
++++ after/index.html
+@@ -21,18 +21,19 @@
+     .motivation-claim{margin:26px 0;padding:20px 24px;border-left:4px solid var(--rust);background:var(--peach);font-family:Georgia,serif;font-size:22px;line-height:1.4;color:var(--ink)}
+     .motivation-copy{width:100%}
+     .motivation-copy p{margin:0 0 14px}
+-    .motivation-toggle{display:flex;align-items:center;gap:24px;cursor:pointer;list-style:none;padding:20px 24px;background:var(--panel);border:1px solid var(--line);border-radius:12px}
++    .motivation-toggle{display:flex;align-items:center;justify-content:space-between;gap:24px;cursor:pointer;list-style:none;padding:20px 24px;background:var(--panel);border:1px solid var(--line);border-radius:12px}
+     .motivation-toggle::-webkit-details-marker{display:none}
+     .motivation-toggle:hover,.motivation-details[open]>.motivation-toggle{background:var(--sage)}
+     .motivation-toggle:focus-visible{outline:3px solid #bd913f;outline-offset:4px}
+-    .motivation-toggle .motivation-header{flex:1;margin-bottom:0}
++    .motivation-toggle span{font-size:14px;font-weight:650;color:var(--green-dark)}
++    .motivation-content{padding-top:20px}
+     .motivation-toggle::after{content:"";width:10px;height:10px;border-right:2px solid var(--green-dark);border-bottom:2px solid var(--green-dark);transform:rotate(45deg);flex-shrink:0}
+     .motivation-details[open]>.motivation-toggle::after{transform:rotate(225deg)}
+     @media(max-width:700px){.motivation-toggle{padding:16px;gap:16px}}
+     @media print{
+-      .motivation-toggle{padding:0;border:0;background:none!important}
++      .motivation-toggle{display:none}
++      .motivation-content{padding-top:0}
+       .motivation-toggle::after{display:none}
+-      .motivation-toggle .motivation-header{margin-bottom:18px}
+       .motivation-page{break-before:auto;page-break-before:auto;break-inside:auto;padding-top:0;margin-bottom:0;border:0}
+       #profil{break-before:page;page-break-before:always}
+       .motivation-header{margin-bottom:18px}
+@@ -63,18 +64,19 @@
+     <header class="topbar"><strong id="breadcrumb" data-en="Motivation">Motivation</strong><div class="top-actions"><div class="language-switch" role="group" aria-label="Sprache wählen" data-en-aria-label="Choose language"><button type="button" data-language="de" lang="de" aria-label="Deutsch" aria-pressed="true">DE</button><button type="button" data-language="en" lang="en" aria-label="English" aria-pressed="false">EN</button></div><button id="print-button" class="print-button" type="button" data-en="Print / PDF">Drucken / PDF</button><span class="avatar" aria-label="Martin Drexler">MD</span></div></header>
+     <main id="main">
+       <section id="motivation" class="section motivation-page" aria-labelledby="motivation-title">
++        <div class="motivation-header">
++          <div>
++            <span class="eyebrow">MOTIVATION</span>
++            <h2 id="motivation-title" data-en="My Motivation">Meine Motivation</h2>
++          </div>
++          <time class="motivation-date" datetime="2026-10-12" data-en="Magdeburg, 12 October 2026">Magdeburg, 12. Oktober 2026</time>
++        </div>
++        <p class="motivation-claim" data-en="I combine robust systems architecture with intelligent software development to make complex technical systems understandable, safe and ready for the future.">Ich verbinde belastbare Systemarchitektur mit intelligenter Softwareentwicklung, damit komplexe technische Systeme nachvollziehbar, sicher und zukunftsfähig werden.</p>
+         <details id="motivation-details" class="motivation-details">
+           <summary class="motivation-toggle" aria-controls="motivation-content">
+-            <div class="motivation-header">
+-              <div>
+-                <span class="eyebrow">MOTIVATION</span>
+-                <h2 id="motivation-title" data-en="My Motivation">Meine Motivation</h2>
+-              </div>
+-              <time class="motivation-date" datetime="2026-10-12" data-en="Magdeburg, 12 October 2026">Magdeburg, 12. Oktober 2026</time>
+-            </div>
++            <span data-en="Read my motivation">Motivation lesen</span>
+           </summary>
+           <div id="motivation-content" class="motivation-content">
+-            <p class="motivation-claim" data-en="I combine robust systems architecture with intelligent software development to make complex technical systems understandable, safe and ready for the future.">Ich verbinde belastbare Systemarchitektur mit intelligenter Softwareentwicklung, damit komplexe technische Systeme nachvollziehbar, sicher und zukunftsfähig werden.</p>
+             <div class="motivation-copy">
+               <p data-en="The combination of systems engineering, digital systems architecture and artificial intelligence has shaped my career. As an E/E systems architect and project manager, I bring more than ten years of experience in developing complex systems. I want to apply this perspective to new challenges and expand it with current digital methods.">Die Verbindung von Systems Engineering, digitaler Systemarchitektur und künstlicher Intelligenz prägt meinen beruflichen Weg. Als E/E-Systemarchitekt und Projektleiter bringe ich mehr als zehn Jahre Erfahrung in der Entwicklung komplexer Systeme mit. Diese Perspektive möchte ich in neue Aufgaben einbringen und um aktuelle digitale Methoden erweitern.</p>
+               <p data-en="In my previous roles, I designed and modelled vehicle, driver assistance and information functions using modern MBSE toolchains. This included modular driver assistance systems, architecture concepts for Level 4 automated driving, and the analysis of bus and communication structures.">In meiner bisherigen Tätigkeit konzipierte und modellierte ich Fahrzeug-, Fahrerassistenz- und Informationsfunktionen in modernen MBSE-Toolchains. Dazu gehörten modulare Fahrerassistenzsysteme, Architekturkonzepte für hochautomatisiertes Fahren auf Level 4 sowie die Analyse von Bus- und Kommunikationsstrukturen.</p>

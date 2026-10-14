@@ -1,0 +1,15 @@
+{
+  "englishLabel": "Application photo of Martin Drexler",
+  "germanLabel": "Bewerbungsfoto von Martin Drexler",
+  "mobile": {
+    "frameHeight": 325,
+    "frameWidth": 260,
+    "insideScreen": true,
+    "overflow": false,
+    "photoHeight": 323,
+    "photoWidth": 258
+  },
+  "photoCount": 1,
+  "placeholderCount": 0,
+  "errors": []
+}

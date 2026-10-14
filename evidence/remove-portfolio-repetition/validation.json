@@ -1,0 +1,10 @@
+{
+  "redundant_explanation_removed_in_both_languages": true,
+  "prominent_portfolio_link_count": 1,
+  "project_example_links": 4,
+  "other_html_unchanged": true,
+  "served_versions": {
+    "lernstudio-zweit/dist/index.html": "9e8eda0bf3492c4a706bb9f653801558e37bfa225d51e55cc83d7391f40e8d4a",
+    "lernstudio-zweit/dist/cv.css": "0ee11996a89649deca95bea903f18a4a1bc7675ba38692494991ebf3f8507edc"
+  }
+}

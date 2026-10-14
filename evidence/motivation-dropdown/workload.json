@@ -1,0 +1,168 @@
+{
+  "repository": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2",
+  "kind": "implementation",
+  "modify_code": true,
+  "revision_before": {
+    "lernstudio-zweit/dist/index.html": "2eb6c0250b2decac349255aab04a20d1f072f9445292b192e180f9e6b046e082",
+    "lernstudio-zweit/dist/cv.js": "60d2564697959c1c6d3af11d547a0eb5fba37424691b2b138344178d730c57b5"
+  },
+  "required_outcomes": [
+    "collapsed_motivation_with_visible_header",
+    "bilingual_keyboard_toggle_and_print_content"
+  ],
+  "validation_requirements": [
+    "content_preserved_and_structure",
+    "browser_toggle_and_language",
+    "served_assets"
+  ],
+  "unresolved_decisions": [],
+  "files_changed": [
+    "lernstudio-zweit/dist/index.html",
+    "lernstudio-zweit/dist/cv.js"
+  ],
+  "before": [
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-dropdown\\before-index.html",
+      "sha256": "2eb6c0250b2decac349255aab04a20d1f072f9445292b192e180f9e6b046e082"
+    },
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-dropdown\\before-cv.js",
+      "sha256": "60d2564697959c1c6d3af11d547a0eb5fba37424691b2b138344178d730c57b5"
+    }
+  ],
+  "after": [
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-dropdown\\after-index.html",
+      "sha256": "8422fe47976ba4cf6b53ef4509012256483f58003613297ff626ce0b40b6dd20"
+    },
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-dropdown\\after-cv.js",
+      "sha256": "6448202463bc2f5eb69add84966f1c4e54bd7cfb6b3a6b59f0f97ed6a6146c52"
+    }
+  ],
+  "diff": [
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-dropdown\\diff.patch",
+      "sha256": "1ac419bf58c8fd7fabc6946c8401d4667df9e688ee0939a8051a2045c9a347a2"
+    }
+  ],
+  "outcomes": {
+    "collapsed_motivation_with_visible_header": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-dropdown\\source-checks.json",
+          "sha256": "25524fbf7d1863ba329ede6c6a005d5be173dccf5341b96c4fecd223d5f5dacc"
+        }
+      ]
+    },
+    "bilingual_keyboard_toggle_and_print_content": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-dropdown\\browser-checks.json",
+          "sha256": "7469e12cc4ef91686047ab4f3988e0cdeb4f5b1f61c18999390e31ef878acdc2"
+        },
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-dropdown\\print-checks.json",
+          "sha256": "6873512134da5addf065b495b3b1ef85f19a27b0279d85ceae56b2c9966b260d"
+        },
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-dropdown\\preview-final.png",
+          "sha256": "125920816f36c3a9f4a3250fcb4eaf057870b1476adc5ca0a6e6d8d4be2e1787"
+        }
+      ]
+    }
+  },
+  "validations": {
+    "content_preserved_and_structure": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-dropdown\\source-checks.json",
+          "sha256": "25524fbf7d1863ba329ede6c6a005d5be173dccf5341b96c4fecd223d5f5dacc"
+        }
+      ]
+    },
+    "browser_toggle_and_language": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-dropdown\\browser-checks.json",
+          "sha256": "7469e12cc4ef91686047ab4f3988e0cdeb4f5b1f61c18999390e31ef878acdc2"
+        },
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-dropdown\\print-checks.json",
+          "sha256": "6873512134da5addf065b495b3b1ef85f19a27b0279d85ceae56b2c9966b260d"
+        },
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-dropdown\\preview-final.png",
+          "sha256": "125920816f36c3a9f4a3250fcb4eaf057870b1476adc5ca0a6e6d8d4be2e1787"
+        }
+      ]
+    },
+    "served_assets": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-dropdown\\source-checks.json",
+          "sha256": "25524fbf7d1863ba329ede6c6a005d5be173dccf5341b96c4fecd223d5f5dacc"
+        }
+      ]
+    }
+  },
+  "remaining_findings": [],
+  "delivery": {
+    "decision": "YES",
+    "authorization": "User requested collapsible motivation with visible header on the local portfolio; static server reads edited canonical assets directly.",
+    "target": "http://localhost:25001/",
+    "tested_version": "faa55236c5dde6c48a460a789a09209ec9d9c9f536fa7e151874450e4ed1c775",
+    "running_version": "faa55236c5dde6c48a460a789a09209ec9d9c9f536fa7e151874450e4ed1c775",
+    "checks": {
+      "release": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-dropdown\\source-checks.json",
+            "sha256": "25524fbf7d1863ba329ede6c6a005d5be173dccf5341b96c4fecd223d5f5dacc"
+          }
+        ]
+      },
+      "deployment": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-dropdown\\source-checks.json",
+            "sha256": "25524fbf7d1863ba329ede6c6a005d5be173dccf5341b96c4fecd223d5f5dacc"
+          }
+        ]
+      },
+      "health": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-dropdown\\source-checks.json",
+            "sha256": "25524fbf7d1863ba329ede6c6a005d5be173dccf5341b96c4fecd223d5f5dacc"
+          }
+        ]
+      },
+      "functional": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-dropdown\\browser-checks.json",
+            "sha256": "7469e12cc4ef91686047ab4f3988e0cdeb4f5b1f61c18999390e31ef878acdc2"
+          },
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-dropdown\\print-checks.json",
+            "sha256": "6873512134da5addf065b495b3b1ef85f19a27b0279d85ceae56b2c9966b260d"
+          },
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-dropdown\\preview-final.png",
+            "sha256": "125920816f36c3a9f4a3250fcb4eaf057870b1476adc5ca0a6e6d8d4be2e1787"
+          }
+        ]
+      }
+    }
+  }
+}

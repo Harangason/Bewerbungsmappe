@@ -1,0 +1,64 @@
+{
+  "initial": {
+    "coverVisible": true,
+    "cvVisible": false,
+    "menuLinks": 6,
+    "overflow": false
+  },
+  "navigation": [
+    {
+      "target": "motivation",
+      "cvVisible": true,
+      "coverVisible": false,
+      "sectionVisible": true
+    },
+    {
+      "target": "profil",
+      "cvVisible": true,
+      "coverVisible": false,
+      "sectionVisible": true
+    },
+    {
+      "target": "kompetenzen",
+      "cvVisible": true,
+      "coverVisible": false,
+      "sectionVisible": true
+    },
+    {
+      "target": "berufserfahrung",
+      "cvVisible": true,
+      "coverVisible": false,
+      "sectionVisible": true
+    },
+    {
+      "target": "ausbildung",
+      "cvVisible": true,
+      "coverVisible": false,
+      "sectionVisible": true
+    },
+    {
+      "target": "kenntnisse",
+      "cvVisible": true,
+      "coverVisible": false,
+      "sectionVisible": true
+    }
+  ],
+  "english": {
+    "attributeMismatches": 0,
+    "lang": "en",
+    "mismatches": []
+  },
+  "deepLink": {
+    "cvVisible": true,
+    "lang": "en",
+    "reloadCvVisible": true
+  },
+  "mobile": {
+    "coverVisible": true,
+    "heading": "Martin Drexler",
+    "menuLinks": 6,
+    "overflow": false,
+    "width": 390
+  },
+  "errors": []
+}

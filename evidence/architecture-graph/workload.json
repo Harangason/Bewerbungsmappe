@@ -1,0 +1,156 @@
+{
+  "repository": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2",
+  "kind": "implementation",
+  "modify_code": true,
+  "revision_before": {
+    "lernstudio-zweit/dist/index.html": "0c8266473d1f58dd6d176bb9b5515f702812a9d6c130321f4a6583abe23cc11b",
+    "lernstudio-zweit/dist/cv.css": "22f9981c0ca371b50c023c77d53239ad9fbb052d7368abc2a043f4eebeb6ee5c"
+  },
+  "required_outcomes": [
+    "five_connected_architecture_nodes_with_ai",
+    "bilingual_responsive_graph"
+  ],
+  "validation_requirements": [
+    "graph_structure_and_scope",
+    "browser_layout_and_language",
+    "served_assets"
+  ],
+  "unresolved_decisions": [],
+  "files_changed": [
+    "lernstudio-zweit/dist/index.html",
+    "lernstudio-zweit/dist/cv.css"
+  ],
+  "before": [
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\architecture-graph\\before-index.html",
+      "sha256": "0c8266473d1f58dd6d176bb9b5515f702812a9d6c130321f4a6583abe23cc11b"
+    },
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\architecture-graph\\before-cv.css",
+      "sha256": "22f9981c0ca371b50c023c77d53239ad9fbb052d7368abc2a043f4eebeb6ee5c"
+    }
+  ],
+  "after": [
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\architecture-graph\\after-index.html",
+      "sha256": "2eb6c0250b2decac349255aab04a20d1f072f9445292b192e180f9e6b046e082"
+    },
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\architecture-graph\\after-cv.css",
+      "sha256": "9e9b2a383223312b2ff6a46c4f9f1fcc9bc46d2bed158bb244ff0c35a313c3ce"
+    }
+  ],
+  "diff": [
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\architecture-graph\\diff.patch",
+      "sha256": "2b799fb0da872e4e17714fd65f6f52d69686c0069fd476474fcdedbfec0847b9"
+    }
+  ],
+  "outcomes": {
+    "five_connected_architecture_nodes_with_ai": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\architecture-graph\\source-checks.json",
+          "sha256": "b708d1d20333dddd5cef0c35ba5f9fbf56251856b7b312b16577c37f1065beb4"
+        }
+      ]
+    },
+    "bilingual_responsive_graph": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\architecture-graph\\browser-checks.json",
+          "sha256": "339d0dbf89b8ab977b6dcaf0fbb1b02d666074ac71c5e627338cb4d6b54773a1"
+        },
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\architecture-graph\\preview-final.png",
+          "sha256": "29e3e10f10b16f6d1516efc2b078d7499ce4f19d240923391a26d27e5a373a89"
+        }
+      ]
+    }
+  },
+  "validations": {
+    "graph_structure_and_scope": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\architecture-graph\\source-checks.json",
+          "sha256": "b708d1d20333dddd5cef0c35ba5f9fbf56251856b7b312b16577c37f1065beb4"
+        }
+      ]
+    },
+    "browser_layout_and_language": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\architecture-graph\\browser-checks.json",
+          "sha256": "339d0dbf89b8ab977b6dcaf0fbb1b02d666074ac71c5e627338cb4d6b54773a1"
+        },
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\architecture-graph\\preview-final.png",
+          "sha256": "29e3e10f10b16f6d1516efc2b078d7499ce4f19d240923391a26d27e5a373a89"
+        }
+      ]
+    },
+    "served_assets": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\architecture-graph\\source-checks.json",
+          "sha256": "b708d1d20333dddd5cef0c35ba5f9fbf56251856b7b312b16577c37f1065beb4"
+        }
+      ]
+    }
+  },
+  "remaining_findings": [],
+  "delivery": {
+    "decision": "YES",
+    "authorization": "User requested expanding the local architecture graphic with AI and connected graph representation; static server reads canonical assets directly.",
+    "target": "http://localhost:25001/#profil",
+    "tested_version": "568ae9de10eeb57cc8a0f1c4d3e47e45b0b812c6e5aa533f2d33620409601d96",
+    "running_version": "568ae9de10eeb57cc8a0f1c4d3e47e45b0b812c6e5aa533f2d33620409601d96",
+    "checks": {
+      "release": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\architecture-graph\\source-checks.json",
+            "sha256": "b708d1d20333dddd5cef0c35ba5f9fbf56251856b7b312b16577c37f1065beb4"
+          }
+        ]
+      },
+      "deployment": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\architecture-graph\\source-checks.json",
+            "sha256": "b708d1d20333dddd5cef0c35ba5f9fbf56251856b7b312b16577c37f1065beb4"
+          }
+        ]
+      },
+      "health": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\architecture-graph\\source-checks.json",
+            "sha256": "b708d1d20333dddd5cef0c35ba5f9fbf56251856b7b312b16577c37f1065beb4"
+          }
+        ]
+      },
+      "functional": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\architecture-graph\\browser-checks.json",
+            "sha256": "339d0dbf89b8ab977b6dcaf0fbb1b02d666074ac71c5e627338cb4d6b54773a1"
+          },
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\architecture-graph\\preview-final.png",
+            "sha256": "29e3e10f10b16f6d1516efc2b078d7499ce4f19d240923391a26d27e5a373a89"
+          }
+        ]
+      }
+    }
+  }
+}

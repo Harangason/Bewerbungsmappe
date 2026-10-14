@@ -1,0 +1,19 @@
+{
+  "initial": {
+    "headerVisible": true,
+    "claimVisible": true,
+    "copyVisible": false,
+    "paragraphs": 5
+  },
+  "opened": {
+    "copyVisible": true,
+    "translationsMatch": true
+  },
+  "german": {
+    "heading": "Meine Motivation",
+    "summary": "Motivation lesen",
+    "claimVisible": true,
+    "copyVisible": false
+  },
+  "errors": []
+}

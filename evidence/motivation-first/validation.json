@@ -1,0 +1,29 @@
+{
+  "section_order": [
+    "motivation",
+    "profil",
+    "kompetenzen",
+    "berufserfahrung",
+    "ausbildung",
+    "kenntnisse"
+  ],
+  "navigation_order": [
+    "motivation",
+    "profil",
+    "kompetenzen",
+    "berufserfahrung",
+    "ausbildung",
+    "kenntnisse"
+  ],
+  "initial_active": [
+    [
+      "#motivation",
+      "location"
+    ]
+  ],
+  "all_section_content_preserved": true,
+  "neutral_content_preserved": true,
+  "print_css_rules": "PASSED",
+  "served_html_matches": true,
+  "health": "PASSED"
+}

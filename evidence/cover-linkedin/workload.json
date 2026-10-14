@@ -1,0 +1,104 @@
+{
+  "repository": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2",
+  "kind": "implementation",
+  "modify_code": true,
+  "revision_before": {
+    "lernstudio-zweit/dist/index.html": "9ff15cd577e6e5b3ed381f923043d47033bed742a4b43a102b48c54d1b1057dc"
+  },
+  "required_outcomes": [
+    "linkedin_on_cover"
+  ],
+  "validation_requirements": [
+    "scope_and_served_link"
+  ],
+  "unresolved_decisions": [],
+  "files_changed": [
+    "lernstudio-zweit/dist/index.html"
+  ],
+  "before": [
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\cover-linkedin\\before.html",
+      "sha256": "9ff15cd577e6e5b3ed381f923043d47033bed742a4b43a102b48c54d1b1057dc"
+    }
+  ],
+  "after": [
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\cover-linkedin\\after.html",
+      "sha256": "40c97dc5c866e1644469f10fd316c588156ed52057acffb7df3ae4d5123cedfc"
+    }
+  ],
+  "diff": [
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\cover-linkedin\\diff.patch",
+      "sha256": "2eac71033f371ee0df46078a18c5bb9ac989e59ac343aa3a90435134bf562542"
+    }
+  ],
+  "outcomes": {
+    "linkedin_on_cover": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\cover-linkedin\\validation.json",
+          "sha256": "90cda72da8fe759ca665ce06f0d2d0e2eeefe3193cfccc7e8da226532aa790e4"
+        }
+      ]
+    }
+  },
+  "validations": {
+    "scope_and_served_link": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\cover-linkedin\\validation.json",
+          "sha256": "90cda72da8fe759ca665ce06f0d2d0e2eeefe3193cfccc7e8da226532aa790e4"
+        }
+      ]
+    }
+  },
+  "remaining_findings": [],
+  "delivery": {
+    "decision": "YES",
+    "authorization": "User requested adding this LinkedIn URL to the local cover page.",
+    "target": "http://localhost:25001/",
+    "tested_version": "40c97dc5c866e1644469f10fd316c588156ed52057acffb7df3ae4d5123cedfc",
+    "running_version": "40c97dc5c866e1644469f10fd316c588156ed52057acffb7df3ae4d5123cedfc",
+    "checks": {
+      "release": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\cover-linkedin\\validation.json",
+            "sha256": "90cda72da8fe759ca665ce06f0d2d0e2eeefe3193cfccc7e8da226532aa790e4"
+          }
+        ]
+      },
+      "deployment": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\cover-linkedin\\validation.json",
+            "sha256": "90cda72da8fe759ca665ce06f0d2d0e2eeefe3193cfccc7e8da226532aa790e4"
+          }
+        ]
+      },
+      "health": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\cover-linkedin\\validation.json",
+            "sha256": "90cda72da8fe759ca665ce06f0d2d0e2eeefe3193cfccc7e8da226532aa790e4"
+          }
+        ]
+      },
+      "functional": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\cover-linkedin\\validation.json",
+            "sha256": "90cda72da8fe759ca665ce06f0d2d0e2eeefe3193cfccc7e8da226532aa790e4"
+          }
+        ]
+      }
+    }
+  }
+}

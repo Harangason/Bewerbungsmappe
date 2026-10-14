@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    "ai",
+    "architecture",
+    "functions",
+    "requirements",
+    "tests"
+  ],
+  "edges": [
+    [
+      "requirements",
+      "functions"
+    ],
+    [
+      "functions",
+      "architecture"
+    ],
+    [
+      "architecture",
+      "tests"
+    ],
+    [
+      "tests",
+      "requirements"
+    ],
+    [
+      "requirements",
+      "ai"
+    ],
+    [
+      "functions",
+      "ai"
+    ],
+    [
+      "architecture",
+      "ai"
+    ],
+    [
+      "tests",
+      "ai"
+    ]
+  ],
+  "ai_connected_to_all_four": true,
+  "outer_nodes_connected": true,
+  "html_changes_confined_to_graph_panel": true,
+  "served_versions": {
+    "lernstudio-zweit/dist/index.html": "2eb6c0250b2decac349255aab04a20d1f072f9445292b192e180f9e6b046e082",
+    "lernstudio-zweit/dist/cv.css": "9e9b2a383223312b2ff6a46c4f9f1fcc9bc46d2bed158bb244ff0c35a313c3ce"
+  }
+}

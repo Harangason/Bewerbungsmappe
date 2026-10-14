@@ -1,0 +1,36 @@
+{
+  "german": {
+    "clipped": [],
+    "edges": 8,
+    "labels": [
+      "Anforderungen",
+      "Funktionen",
+      "E/E-Architektur",
+      "Systemtests",
+      "KI",
+      "Generative AI"
+    ],
+    "overflow": false
+  },
+  "english": {
+    "clipped": [],
+    "description": "Connected graph: requirements, functions, E/E architecture and system tests are connected to each other and to AI.",
+    "labels": [
+      "Requirements",
+      "Functions",
+      "E/E Architecture",
+      "System Tests",
+      "AI",
+      "Generative AI"
+    ],
+    "overflow": false,
+    "tag": "MBSE + AI"
+  },
+  "mobile": {
+    "clipped": [],
+    "graphWidth": 271,
+    "overflow": false,
+    "width": 390
+  },
+  "errors": []
+}

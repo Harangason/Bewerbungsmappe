@@ -1,0 +1,14 @@
+{
+  "html_structure": "PASSED",
+  "translations": 107,
+  "motivation_first": true,
+  "signoff_removed": true,
+  "original_link_targets_preserved": true,
+  "local_served_versions": {
+    "lernstudio-zweit/dist/index.html": "aca76e2c32db44d89c8d9a51cdd9f44956db7e5ce470632d25def86e99bf3076",
+    "lernstudio-zweit/dist/cv.js": "60d2564697959c1c6d3af11d547a0eb5fba37424691b2b138344178d730c57b5",
+    "lernstudio-zweit/dist/cv.css": "22f9981c0ca371b50c023c77d53239ad9fbb052d7368abc2a043f4eebeb6ee5c"
+  },
+  "javascript_syntax": "PASSED",
+  "health": "PASSED"
+}

@@ -1,0 +1,11 @@
+--- before/index.html
++++ after/index.html
+@@ -19,7 +19,7 @@
+     .motivation-header p,.motivation-address{color:var(--muted);margin:0;font-size:13px}
+     .motivation-date{white-space:nowrap;color:var(--muted);font-size:13px;padding-top:4px}
+     .motivation-claim{margin:26px 0;padding:20px 24px;border-left:4px solid var(--rust);background:var(--peach);font-family:Georgia,serif;font-size:22px;line-height:1.4;color:var(--ink)}
+-    .motivation-copy{max-width:780px}
++    .motivation-copy{width:100%}
+     .motivation-copy p{margin:0 0 14px}
+     @media print{
+       .motivation-page{break-before:auto;page-break-before:auto;break-inside:auto;padding-top:0;margin-bottom:0;border:0}

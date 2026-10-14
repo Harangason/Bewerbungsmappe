@@ -1,0 +1,11 @@
+{
+  "routes": {
+    "/": 200,
+    "/motivation": 200,
+    "/motivation/?lang=en": 200,
+    "/styles.css": 200,
+    "/app.js": 200
+  },
+  "health": "PASSED",
+  "head": "PASSED"
+}

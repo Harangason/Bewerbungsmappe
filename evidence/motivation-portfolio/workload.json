@@ -1,0 +1,204 @@
+{
+  "repository": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2",
+  "kind": "implementation",
+  "modify_code": true,
+  "revision_before": {
+    "lernstudio-zweit/dist/index.html": "19b063eb219a6defaf746af59fe985fd0717f502f3283500b5393b3491b42bc7",
+    "lernstudio-zweit/dist/cv.css": "01a1d6f5c861264f9b68155d3d4f0039c7667d3b46ff3e8d01ac0cda16600b4f"
+  },
+  "required_outcomes": [
+    "prominent_portfolio_link_in_personal_projects",
+    "source_backed_project_examples"
+  ],
+  "validation_requirements": [
+    "content_sources_and_links",
+    "browser_bilingual_mobile",
+    "served_assets"
+  ],
+  "unresolved_decisions": [],
+  "files_changed": [
+    "lernstudio-zweit/dist/index.html",
+    "lernstudio-zweit/dist/cv.css"
+  ],
+  "before": [
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-portfolio\\before-index.html",
+      "sha256": "19b063eb219a6defaf746af59fe985fd0717f502f3283500b5393b3491b42bc7"
+    },
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-portfolio\\before-cv.css",
+      "sha256": "01a1d6f5c861264f9b68155d3d4f0039c7667d3b46ff3e8d01ac0cda16600b4f"
+    }
+  ],
+  "after": [
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-portfolio\\after-index.html",
+      "sha256": "5843fd42fe9df7cdb2cf1186da08d035f78bb1f90d066cb9c9d8383c59f35b59"
+    },
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-portfolio\\after-cv.css",
+      "sha256": "b08a66ce4f8510ba8e5fcd23e9deca44d9537e05840283d9d30c4762569e8b64"
+    }
+  ],
+  "diff": [
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-portfolio\\diff.patch",
+      "sha256": "6b0f7ac50224f7d1b3e324e73ff7a980384216a6038021d3e1262d2685065015"
+    }
+  ],
+  "outcomes": {
+    "prominent_portfolio_link_in_personal_projects": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-portfolio\\browser-checks.json",
+          "sha256": "d39444dbfc538cad88405c2bb6af04efcb4ec45a90d8cd4920f52190c127c3ff"
+        },
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-portfolio\\preview.jpg",
+          "sha256": "8fd4b613fbe11c728f2b980fd9ae7414fa8c25a28233a9eab7e891efe3128c24"
+        }
+      ]
+    },
+    "source_backed_project_examples": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-portfolio\\source-checks.json",
+          "sha256": "738b5f15337fb86aefec150cdfc4714db454053a3e4bc4d6b690d32180cde62a"
+        },
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-portfolio\\project-sources.json",
+          "sha256": "e76475d0faa1f0346f5bc1956c03b7c004143d2ed0fded1333224ef1ba19cbee"
+        },
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-portfolio\\link-checks.json",
+          "sha256": "c0a32bed36f856a9c43104335093a7b9610766b8ad9595e59d156804f7c3af2b"
+        }
+      ]
+    }
+  },
+  "validations": {
+    "content_sources_and_links": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-portfolio\\source-checks.json",
+          "sha256": "738b5f15337fb86aefec150cdfc4714db454053a3e4bc4d6b690d32180cde62a"
+        },
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-portfolio\\project-sources.json",
+          "sha256": "e76475d0faa1f0346f5bc1956c03b7c004143d2ed0fded1333224ef1ba19cbee"
+        },
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-portfolio\\link-checks.json",
+          "sha256": "c0a32bed36f856a9c43104335093a7b9610766b8ad9595e59d156804f7c3af2b"
+        }
+      ]
+    },
+    "browser_bilingual_mobile": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-portfolio\\browser-checks.json",
+          "sha256": "d39444dbfc538cad88405c2bb6af04efcb4ec45a90d8cd4920f52190c127c3ff"
+        },
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-portfolio\\preview.jpg",
+          "sha256": "8fd4b613fbe11c728f2b980fd9ae7414fa8c25a28233a9eab7e891efe3128c24"
+        }
+      ]
+    },
+    "served_assets": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-portfolio\\source-checks.json",
+          "sha256": "738b5f15337fb86aefec150cdfc4714db454053a3e4bc4d6b690d32180cde62a"
+        },
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-portfolio\\project-sources.json",
+          "sha256": "e76475d0faa1f0346f5bc1956c03b7c004143d2ed0fded1333224ef1ba19cbee"
+        },
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-portfolio\\link-checks.json",
+          "sha256": "c0a32bed36f856a9c43104335093a7b9610766b8ad9595e59d156804f7c3af2b"
+        }
+      ]
+    }
+  },
+  "remaining_findings": [],
+  "delivery": {
+    "decision": "YES",
+    "authorization": "User requested a clear portfolio link in block 03 and supporting examples from that portfolio on the local motivation page. Canonical assets are served directly by the existing server.",
+    "target": "http://localhost:25001/motivation#story-projects-title",
+    "tested_version": "f03fa1ed1422c67f462a805db6a6ea424d79531a11d37d305447a55f6d5bc031",
+    "running_version": "f03fa1ed1422c67f462a805db6a6ea424d79531a11d37d305447a55f6d5bc031",
+    "checks": {
+      "release": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-portfolio\\source-checks.json",
+            "sha256": "738b5f15337fb86aefec150cdfc4714db454053a3e4bc4d6b690d32180cde62a"
+          },
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-portfolio\\project-sources.json",
+            "sha256": "e76475d0faa1f0346f5bc1956c03b7c004143d2ed0fded1333224ef1ba19cbee"
+          },
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-portfolio\\link-checks.json",
+            "sha256": "c0a32bed36f856a9c43104335093a7b9610766b8ad9595e59d156804f7c3af2b"
+          }
+        ]
+      },
+      "deployment": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-portfolio\\source-checks.json",
+            "sha256": "738b5f15337fb86aefec150cdfc4714db454053a3e4bc4d6b690d32180cde62a"
+          },
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-portfolio\\project-sources.json",
+            "sha256": "e76475d0faa1f0346f5bc1956c03b7c004143d2ed0fded1333224ef1ba19cbee"
+          },
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-portfolio\\link-checks.json",
+            "sha256": "c0a32bed36f856a9c43104335093a7b9610766b8ad9595e59d156804f7c3af2b"
+          }
+        ]
+      },
+      "health": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-portfolio\\source-checks.json",
+            "sha256": "738b5f15337fb86aefec150cdfc4714db454053a3e4bc4d6b690d32180cde62a"
+          },
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-portfolio\\project-sources.json",
+            "sha256": "e76475d0faa1f0346f5bc1956c03b7c004143d2ed0fded1333224ef1ba19cbee"
+          },
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-portfolio\\link-checks.json",
+            "sha256": "c0a32bed36f856a9c43104335093a7b9610766b8ad9595e59d156804f7c3af2b"
+          }
+        ]
+      },
+      "functional": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-portfolio\\browser-checks.json",
+            "sha256": "d39444dbfc538cad88405c2bb6af04efcb4ec45a90d8cd4920f52190c127c3ff"
+          },
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\motivation-portfolio\\preview.jpg",
+            "sha256": "8fd4b613fbe11c728f2b980fd9ae7414fa8c25a28233a9eab7e891efe3128c24"
+          }
+        ]
+      }
+    }
+  }
+}

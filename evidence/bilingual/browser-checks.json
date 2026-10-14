@@ -1,0 +1,30 @@
+{
+  "english": {
+    "attributes": [],
+    "heading": "My Motivation",
+    "lang": "en",
+    "order": [
+      "motivation",
+      "profil",
+      "kompetenzen",
+      "berufserfahrung",
+      "ausbildung",
+      "kenntnisse"
+    ],
+    "overflow": false,
+    "selected": "true",
+    "signoff": false,
+    "title": "Martin Drexler · E/E Systems Architect",
+    "untranslated": []
+  },
+  "germanRoundTrip": true,
+  "englishReloadPassed": true,
+  "savedEnglishWithoutQueryPassed": true,
+  "englishProfileNavigationPassed": true,
+  "mobile390": {
+    "overflow": false,
+    "languageButtonsVisible": true
+  },
+  "consoleErrors": [],
+  "breadcrumbUsesActiveSection": true
+}

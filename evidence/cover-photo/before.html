@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#61765c">
+  <meta name="description" content="Martin Drexler · E/E-Systemarchitekt, MBSE und GenAI Expert." data-en-content="Martin Drexler · E/E Systems Architect, MBSE and GenAI Expert.">
+  <title data-en="Martin Drexler · E/E Systems Architect">Martin Drexler · E/E-Systemarchitekt</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%2361765c'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Georgia' font-size='31' fill='%23fff8ed'%3EMD%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/styles.css">
+  <style>
+    .language-switch{display:flex;gap:3px;padding:3px;border:1px solid var(--line);border-radius:10px;background:var(--panel)}
+    .language-switch button{border:0;border-radius:7px;background:transparent;color:var(--green-dark);padding:6px 9px;font-size:11px;font-weight:700;min-height:30px}
+    .language-switch button[aria-pressed="true"]{background:var(--green);color:#fff}
+    @media(max-width:420px){.top-actions{gap:6px}.avatar{display:none}.language-switch button{padding:6px}}
+    .motivation-page{border-top:0;padding-top:0;margin-bottom:38px}
+    .motivation-header{display:flex;justify-content:space-between;gap:24px;align-items:flex-start;margin-bottom:28px}
+    .motivation-header h2{font-size:28px;line-height:1.2;margin:7px 0 8px;max-width:620px}
+    .motivation-header p,.motivation-address{color:var(--muted);margin:0;font-size:13px}
+    .motivation-date{white-space:nowrap;color:var(--muted);font-size:13px;padding-top:4px}
+    .motivation-claim{margin:26px 0;padding:20px 24px;border-left:4px solid var(--rust);background:var(--peach);font-family:Georgia,serif;font-size:22px;line-height:1.4;color:var(--ink)}
+    .motivation-copy{width:100%}
+    .motivation-copy p{margin:0 0 14px}
+    .motivation-toggle{display:flex;align-items:center;justify-content:space-between;gap:24px;cursor:pointer;list-style:none;padding:20px 24px;background:var(--panel);border:1px solid var(--line);border-radius:12px}
+    .motivation-toggle::-webkit-details-marker{display:none}
+    .motivation-toggle:hover,.motivation-details[open]>.motivation-toggle{background:var(--sage)}
+    .motivation-toggle:focus-visible{outline:3px solid #bd913f;outline-offset:4px}
+    .motivation-toggle span{font-size:14px;font-weight:650;color:var(--green-dark)}
+    .motivation-content{padding-top:20px}
+    .motivation-toggle::after{content:"";width:10px;height:10px;border-right:2px solid var(--green-dark);border-bottom:2px solid var(--green-dark);transform:rotate(45deg);flex-shrink:0}
+    .motivation-details[open]>.motivation-toggle::after{transform:rotate(225deg)}
+    @media(max-width:700px){.motivation-toggle{padding:16px;gap:16px}}
+    @media print{
+      .motivation-toggle{display:none}
+      .motivation-content{padding-top:0}
+      .motivation-toggle::after{display:none}
+      .motivation-page{break-before:auto;page-break-before:auto;break-inside:auto;padding-top:0;margin-bottom:0;border:0}
+      #profil{break-before:page;page-break-before:always}
+      .motivation-header{margin-bottom:18px}
+      .motivation-header h2{font-size:24pt}
+      .motivation-claim{font-size:17pt;margin:18px 0;padding:14px 18px;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+      .motivation-copy p{margin-bottom:10px}
+    }
+    @media(max-width:700px){.motivation-header{display:block}.motivation-date{display:block;margin-top:10px}.motivation-header h2{font-size:24px}.motivation-claim{font-size:19px;padding:16px}}
+  </style>
+  <script type="module" src="/app.js"></script>
+</head>
+<body class="cover-view">
+  <a class="skip-link" href="#main" data-en="Skip to content">Zum Inhalt</a>
+
+  <div class="cover-page">
+    <header class="cover-topbar">
+      <a class="cover-brand" href="#start"><span class="brand-icon">MD</span><span>Martin Drexler<small data-en="PERSONAL PORTFOLIO">PERSÖNLICHES PORTFOLIO</small></span></a>
+      <div class="language-switch" role="group" aria-label="Sprache wählen" data-en-aria-label="Choose language"><button type="button" data-language="de" lang="de" aria-label="Deutsch" aria-pressed="true">DE</button><button type="button" data-language="en" lang="en" aria-label="English" aria-pressed="false">EN</button></div>
+    </header>
+    <main id="cover-main" class="cover-main">
+      <div class="cover-introduction">
+        <div class="cover-story">
+          <span class="eyebrow" data-en="SYSTEMS ENGINEERING · MBSE · ARTIFICIAL INTELLIGENCE">SYSTEMS ENGINEERING · MBSE · KÜNSTLICHE INTELLIGENZ</span>
+          <h1>Martin Drexler</h1>
+          <p class="cover-role" data-en="E/E Systems Architect · Project Manager · GenAI">E/E-Systemarchitekt · Projektleiter · GenAI</p>
+          <section class="cover-welcome" aria-labelledby="cover-welcome-title">
+            <h2 id="cover-welcome-title" data-en="Welcome. It’s good to meet you.">Herzlich willkommen. Schön, dass Sie hier sind.</h2>
+            <p data-en="Thank you for your interest. This website introduces my motivation, experience and technical focus areas. The links below take you directly to my detailed profile and career history.">Ich freue mich über Ihr Interesse. Auf dieser Seite lernen Sie meine Motivation, meine Erfahrung und meine technischen Schwerpunkte kennen. Über die Menüs gelangen Sie direkt zu meinem ausführlichen Profil und Werdegang.</p>
+          </section>
+          <section class="cover-profile" aria-labelledby="cover-profile-title">
+            <span class="eyebrow" data-en="AT A GLANCE">AUF EINEN BLICK</span>
+            <h2 id="cover-profile-title" data-en="My short profile">Mein Kurzprofil</h2>
+            <p data-en="I connect requirements, functions and systems architecture. I bring more than ten years of experience in vehicle development, including around six years in E/E architecture and model-based systems engineering. I am currently expanding this foundation through AI Engineer training and my own projects involving generative AI, Python and model and data processing.">Ich verbinde Anforderungen, Funktionen und Systemarchitektur. Dafür bringe ich über zehn Jahre Erfahrung in der Fahrzeugentwicklung mit, davon rund sechs Jahre in E/E-Architektur und modellbasiertem Systems Engineering. Aktuell ergänze ich diese Basis durch meine Weiterbildung zum AI Engineer und eigene Projekte mit Generativer KI, Python sowie Modell- und Datenverarbeitung.</p>
+            <div class="cover-focus"><span data-en="10+ years in development">10+ Jahre Entwicklung</span><span>MBSE · SysML</span><span>GenAI · Python</span></div>
+          </section>
+          <a class="cover-primary" href="#motivation"><span data-en="Open motivation &amp; CV">Motivation &amp; Lebenslauf öffnen</span><span aria-hidden="true">↗</span></a>
+        </div>
+        <aside class="cover-personal" aria-label="Foto und Kontakt" data-en-aria-label="Photo and contact">
+          <div class="cover-portrait" role="img" aria-label="Bewerbungsfoto noch nicht hinterlegt" data-en-aria-label="Application photo not yet provided">
+            <span class="cover-monogram" aria-hidden="true">MD</span>
+            <span class="cover-photo-note" data-en="Application photo">Bewerbungsfoto</span>
+          </div>
+          <section class="cover-contact" aria-labelledby="cover-contact-title">
+            <h2 id="cover-contact-title" data-en="Let’s get in touch">Lassen Sie uns ins Gespräch kommen</h2>
+            <a href="mailto:martin-j.drexler@web.de">martin-j.drexler@web.de</a>
+            <a href="tel:+491723914882">+49 172 3914882</a>
+            <address>Rodensleber Weg 20<br>39110 Magdeburg</address>
+            <a class="cover-external" href="https://portfolio-martin-drexler.vercel.app/" target="_blank" rel="noopener noreferrer" data-en="Project portfolio ↗">Projektportfolio ↗</a>
+          </section>
+        </aside>
+      </div>
+      <div class="cover-overview">
+        <div class="cover-expertise">
+          <section aria-labelledby="cover-strengths-title">
+            <span class="eyebrow" data-en="WHAT I BRING">WAS ICH EINBRINGE</span>
+            <h2 id="cover-strengths-title" data-en="My strengths">Meine Stärken</h2>
+            <ul class="cover-strengths">
+              <li><strong data-en="Understanding systems as a whole">Systeme im Zusammenhang verstehen</strong><span data-en="Connecting functions, interfaces and architecture.">Funktionen, Schnittstellen und Architektur zusammenführen.</span></li>
+              <li><strong data-en="Making requirements traceable">Anforderungen nachvollziehbar machen</strong><span data-en="Maintaining traceability from the model to verification.">Traceability vom Modell bis zur Absicherung herstellen.</span></li>
+              <li><strong data-en="Analysing with practical experience">Mit Praxiserfahrung analysieren</strong><span data-en="Drawing on development testing, measurements and fault analysis.">Entwicklungstests, Messungen und Fehleranalysen einbeziehen.</span></li>
+              <li><strong data-en="Combining engineering and AI">Engineering und KI verbinden</strong><span data-en="Applying generative AI and Python to technical challenges.">Generative KI und Python auf technische Aufgaben übertragen.</span></li>
+            </ul>
+          </section>
+          <section class="cover-qualifications" aria-labelledby="cover-qualifications-title">
+            <h2 id="cover-qualifications-title" data-en="Qualifications">Qualifikationen</h2>
+            <ul><li data-en="Bachelor of Engineering · Automotive Engineering">Bachelor of Engineering · Automobiltechnik</li><li data-en="State-Certified Technician · Mechanical Engineering">Staatlich geprüfter Techniker · Maschinentechnik</li><li data-en="AI Engineer · Training in progress">AI Engineer · Laufende Weiterbildung</li></ul>
+          </section>
+        </div>
+        <section class="cover-contents" aria-labelledby="cover-contents-title">
+          <span class="eyebrow" data-en="EXPLORE THE DETAILS">DIE DETAILS ENTDECKEN</span>
+          <h2 id="cover-contents-title" data-en="Contents">Inhaltsverzeichnis</h2>
+          <p data-en="Choose a section to learn more.">Wählen Sie den Bereich, den Sie näher kennenlernen möchten.</p>
+          <nav aria-label="Unterlagen und Abschnitte" data-en-aria-label="Documents and sections">
+            <a href="#motivation"><span class="cover-menu-number" aria-hidden="true">01</span><span><strong data-en="My motivation">Meine Motivation</strong><small data-en="What drives me">Was mich antreibt</small></span><span aria-hidden="true">↗</span></a>
+            <a href="#profil"><span class="cover-menu-number" aria-hidden="true">02</span><span><strong data-en="Profile">Profil</strong><small data-en="Experience and focus areas">Erfahrung und Schwerpunkte</small></span><span aria-hidden="true">↗</span></a>
+            <a href="#kompetenzen"><span class="cover-menu-number" aria-hidden="true">03</span><span><strong data-en="Core skills">Kernkompetenzen</strong><small data-en="Architecture, MBSE and verification">Architektur, MBSE und Absicherung</small></span><span aria-hidden="true">↗</span></a>
+            <a href="#berufserfahrung"><span class="cover-menu-number" aria-hidden="true">04</span><span><strong data-en="Work experience">Berufserfahrung</strong><small data-en="Roles and responsibilities">Stationen und Aufgaben</small></span><span aria-hidden="true">↗</span></a>
+            <a href="#ausbildung"><span class="cover-menu-number" aria-hidden="true">05</span><span><strong data-en="Education and studies">Ausbildung &amp; Studium</strong><small data-en="My technical foundation">Meine technische Basis</small></span><span aria-hidden="true">↗</span></a>
+            <a href="#kenntnisse"><span class="cover-menu-number" aria-hidden="true">06</span><span><strong data-en="Knowledge and skills">Kenntnisse</strong><small data-en="Tools, training and languages">Werkzeuge, Weiterbildungen und Sprachen</small></span><span aria-hidden="true">↗</span></a>
+          </nav>
+        </section>
+      </div>
+    </main>
+    <footer class="cover-footer"><span>Martin Drexler · Magdeburg</span><span data-en="Systems engineering. Clear connections.">Systems Engineering. Klare Zusammenhänge.</span></footer>
+  </div>
+  <aside class="sidebar" aria-label="Lebenslauf-Navigation" data-en-aria-label="CV navigation">
+    <a class="brand" href="#motivation"><span class="brand-icon">MD</span><span>Martin Drexler<small data-en="E/E SYSTEMS ARCHITECTURE">E/E-SYSTEMARCHITEKTUR</small></span></a>
+    <a class="cover-return" href="#start" data-en="← Cover page">← Deckblatt</a>
+    <div class="nav-label" data-en="MOTIVATION &amp; CAREER">MOTIVATION &amp; WERDEGANG</div>
+    <nav aria-label="Abschnitte" data-en-aria-label="Sections">
+      <a class="nav-item active" href="#motivation" aria-current="location" data-en="Motivation">Motivation</a>
+      <a class="nav-item" href="#profil" data-en="Profile">Profil</a>
+      <a class="nav-item" href="#kompetenzen" data-en="Core Skills">Kernkompetenzen</a>
+      <a class="nav-item" href="#berufserfahrung" data-en="Work Experience">Berufserfahrung</a>
+      <a class="nav-item" href="#ausbildung" data-en="Education &amp; Studies">Ausbildung &amp; Studium</a>
+      <a class="nav-item" href="#kenntnisse" data-en="Knowledge &amp; Skills">Kenntnisse</a>
+    </nav>
+    <div class="sidebar-meta"><span class="meta-mark" aria-hidden="true">✳</span><strong data-en="Understanding systems.">Systeme verstehen.</strong><p data-en="Connecting architecture, functionality and development.">Architektur, Funktion und Entwicklung zusammenbringen.</p></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><strong id="breadcrumb" data-en="Motivation">Motivation</strong><div class="top-actions"><div class="language-switch" role="group" aria-label="Sprache wählen" data-en-aria-label="Choose language"><button type="button" data-language="de" lang="de" aria-label="Deutsch" aria-pressed="true">DE</button><button type="button" data-language="en" lang="en" aria-label="English" aria-pressed="false">EN</button></div><button id="print-button" class="print-button" type="button" data-en="Print / PDF">Drucken / PDF</button><span class="avatar" aria-label="Martin Drexler">MD</span></div></header>
+    <main id="main">
+      <section id="motivation" class="section motivation-page" aria-labelledby="motivation-title">
+        <div class="motivation-header">
+          <div>
+            <span class="eyebrow">MOTIVATION</span>
+            <h2 id="motivation-title" data-en="My Motivation">Meine Motivation</h2>
+          </div>
+          <time class="motivation-date" datetime="2026-10-12" data-en="Magdeburg, 12 October 2026">Magdeburg, 12. Oktober 2026</time>
+        </div>
+        <p class="motivation-claim" data-en="I combine robust systems architecture with intelligent software development to make complex technical systems understandable, safe and ready for the future.">Ich verbinde belastbare Systemarchitektur mit intelligenter Softwareentwicklung, damit komplexe technische Systeme nachvollziehbar, sicher und zukunftsfähig werden.</p>
+        <details id="motivation-details" class="motivation-details">
+          <summary class="motivation-toggle" aria-controls="motivation-content">
+            <span data-en="Read my motivation">Motivation lesen</span>
+          </summary>
+          <div id="motivation-content" class="motivation-content">
+            <div class="motivation-copy">
+              <p data-en="The combination of systems engineering, digital systems architecture and artificial intelligence has shaped my career. As an E/E systems architect and project manager, I bring more than ten years of experience in developing complex systems. I want to apply this perspective to new challenges and expand it with current digital methods.">Die Verbindung von Systems Engineering, digitaler Systemarchitektur und künstlicher Intelligenz prägt meinen beruflichen Weg. Als E/E-Systemarchitekt und Projektleiter bringe ich mehr als zehn Jahre Erfahrung in der Entwicklung komplexer Systeme mit. Diese Perspektive möchte ich in neue Aufgaben einbringen und um aktuelle digitale Methoden erweitern.</p>
+              <p data-en="In my previous roles, I designed and modelled vehicle, driver assistance and information functions using modern MBSE toolchains. This included modular driver assistance systems, architecture concepts for Level 4 automated driving, and the analysis of bus and communication structures.">In meiner bisherigen Tätigkeit konzipierte und modellierte ich Fahrzeug-, Fahrerassistenz- und Informationsfunktionen in modernen MBSE-Toolchains. Dazu gehörten modulare Fahrerassistenzsysteme, Architekturkonzepte für hochautomatisiertes Fahren auf Level 4 sowie die Analyse von Bus- und Kommunikationsstrukturen.</p>
+              <p data-en="My particular strength lies at the intersection of requirements engineering, function development and technical architecture: I translate complex requirements into understandable models and maintain traceability from requirements through functions and interfaces to tests and technical evidence. With SysML and PREEvision, I make relationships transparent and support informed architectural decisions.">Meine besondere Stärke liegt an der Schnittstelle von Requirements Engineering, Funktionsentwicklung und technischer Architektur: Ich überführe komplexe Anforderungen in nachvollziehbare Modelle und sichere die Traceability von Anforderungen über Funktionen und Schnittstellen bis zu Tests und technischen Nachweisen. Mit SysML und PREEvision mache ich Zusammenhänge transparent und unterstütze fundierte Architekturentscheidungen.</p>
+              <p data-en="Through development and performance testing, data logger analysis and cross-functional fault analysis, I also understand real system behaviour and the requirements for its verification. I am currently expanding my expertise as an AI engineer in generative AI, machine learning, data processing and Python. In my own projects, I already combine these methods with MBSE, requirements engineering, testing, safety and security, and the analysis of complex communication systems.">Durch Entwicklungs- und Leistungstests, Datenlogger-Auswertungen und funktionsübergreifende Fehleranalysen kenne ich zugleich das reale Systemverhalten und die Anforderungen an seine Absicherung. Aktuell vertiefe ich meine Kenntnisse als AI Engineer in Generativer KI, Machine Learning, Datenverarbeitung und Python. In eigenen Projekten verbinde ich diese Methoden bereits mit MBSE, Requirements Engineering, Test, Safety und Security sowie der Analyse komplexer Kommunikationssysteme.</p>
+              <p data-en="My goal is to bring systems engineering and practical development together with digitalisation and artificial intelligence. I offer both the experience of a systems engineer and the implementation perspective of a hands-on software and AI developer. Following my career transition, I am available to take on new challenges at short notice. I would be happy to discuss my projects and technical concepts in person.">Mein Ziel ist es, Systemengineering und praktische Entwicklung mit Digitalisierung und künstlicher Intelligenz zusammenzuführen. Ich bringe dafür sowohl die Erfahrung eines Systemingenieurs als auch die Umsetzungsperspektive eines praxisorientierten Software- und KI-Entwicklers mit. Nach meiner beruflichen Neuorientierung stehe ich für neue Aufgaben kurzfristig zur Verfügung. Meine Projekte und technischen Konzepte erläutere ich gerne in einem persönlichen Gespräch.</p>
+            </div>
+          </div>
+        </details>
+      </section>
+
+      <section id="profil" class="hero" aria-labelledby="name">
+        <div>
+          <span class="eyebrow" data-en="E/E SYSTEMS ARCHITECTURE · MBSE · GENAI">E/E-SYSTEMARCHITEKTUR · MBSE · GENAI</span>
+          <h1 id="name">Martin Drexler</h1>
+          <p class="hero-role" data-en="E/E Systems Architect · MBSE · GenAI Expert">E/E-Systemarchitekt · MBSE · GenAI Expert</p>
+          <p class="hero-copy" data-en="E/E systems architect and project manager with over ten years of experience in vehicle development, including around six years in E/E architecture and MBSE. My focus areas include requirements engineering, functional and systems architecture, end-to-end traceability, and connected driver assistance and Level 4 concepts. As a prospective AI engineer, I am currently expanding my knowledge of generative AI and AI-assisted model and data processing.">E/E-Systemarchitekt und Projektleiter mit über zehn Jahren Erfahrung in der Fahrzeugentwicklung, davon rund sechs Jahren in E/E-Architektur und MBSE. Schwerpunkte sind Requirement Engineering, Funktions- und Systemarchitektur, durchgängige Traceability sowie vernetzte Fahrerassistenz- und Level-4-Konzepte. Aktuell vertiefe ich als angehender AI Engineer meine Kenntnisse in Generative AI und KI-gestützter Modell- und Datenverarbeitung.</p>
+          <div class="contact-row"><a href="mailto:martin-j.drexler@web.de">martin-j.drexler@web.de</a><a href="tel:+491723914882">+49 172 3914882</a><a href="https://portfolio-martin-drexler.vercel.app/" target="_blank" rel="noopener noreferrer" data-en="View portfolio ↗">Portfolio ansehen ↗</a><span>Magdeburg</span></div>
+        </div>
+        <div class="hero-visual" aria-label="Schwerpunkte E/E-Systemarchitektur" data-en-aria-label="E/E systems architecture focus areas">
+          <div class="visual-head"><span data-en="ARCHITECTURE WORKING TOGETHER">ARCHITEKTUR IM ZUSAMMENSPIEL</span><span class="visual-tag" data-en="MBSE + AI">MBSE + KI</span></div>
+          <div class="system-map" role="img" aria-label="Vernetzter Graph: Anforderungen, Funktionen, E/E-Architektur und Systemtests sind untereinander und mit KI verbunden." data-en-aria-label="Connected graph: requirements, functions, E/E architecture and system tests are connected to each other and to AI.">
+            <svg class="architecture-graph" viewBox="0 0 400 310" aria-hidden="true" focusable="false">
+              <g class="graph-edges">
+                <line data-from="requirements" data-to="functions" x1="95" y1="54" x2="305" y2="54" />
+                <line data-from="functions" data-to="architecture" x1="305" y1="54" x2="305" y2="256" />
+                <line data-from="architecture" data-to="tests" x1="305" y1="256" x2="95" y2="256" />
+                <line data-from="tests" data-to="requirements" x1="95" y1="256" x2="95" y2="54" />
+                <line data-from="requirements" data-to="ai" x1="95" y1="54" x2="200" y2="155" />
+                <line data-from="functions" data-to="ai" x1="305" y1="54" x2="200" y2="155" />
+                <line data-from="architecture" data-to="ai" x1="305" y1="256" x2="200" y2="155" />
+                <line data-from="tests" data-to="ai" x1="95" y1="256" x2="200" y2="155" />
+              </g>
+              <g class="graph-node graph-requirements" data-node="requirements">
+                <rect x="20" y="24" width="150" height="60" rx="12" />
+                <text x="95" y="55" data-en="Requirements">Anforderungen</text>
+              </g>
+              <g class="graph-node graph-functions" data-node="functions">
+                <rect x="230" y="24" width="150" height="60" rx="12" />
+                <text x="305" y="55" data-en="Functions">Funktionen</text>
+              </g>
+              <g class="graph-node graph-architecture" data-node="architecture">
+                <rect x="230" y="226" width="150" height="60" rx="12" />
+                <text x="305" y="257" data-en="E/E Architecture">E/E-Architektur</text>
+              </g>
+              <g class="graph-node graph-tests" data-node="tests">
+                <rect x="20" y="226" width="150" height="60" rx="12" />
+                <text x="95" y="257" data-en="System Tests">Systemtests</text>
+              </g>
+              <g class="graph-node graph-ai" data-node="ai">
+                <rect x="145" y="121" width="110" height="68" rx="16" />
+                <text class="ai-label" x="200" y="146" data-en="AI">KI</text>
+                <text class="ai-subtitle" x="200" y="168">Generative AI</text>
+              </g>
+            </svg>
+          </div>
+          <div class="visual-caption" data-en="From requirements to verification: traceable and connected.">Von der Anforderung bis zur Absicherung: nachvollziehbar und vernetzt.</div>
+        </div>
+      </section>
+      <div class="quick-facts" aria-label="Berufliche Schwerpunkte" data-en-aria-label="Professional focus areas"><div class="fact"><strong>10+</strong><span data-en="Years in vehicle development">Jahre Fahrzeugentwicklung</span></div><div class="fact"><strong>~6</strong><span data-en="Years in E/E architecture &amp; MBSE">Jahre E/E-Architektur &amp; MBSE</span></div><div class="fact"><strong>2026</strong><span data-en="AI Engineer training">Weiterbildung AI Engineer</span></div></div>
+
+      <section id="kompetenzen" class="section" aria-labelledby="competencies-title">
+        <div class="section-heading"><div><span class="eyebrow" data-en="WHAT I BRING">WAS ICH EINBRINGE</span><h2 id="competencies-title" data-en="Core Skills">Kernkompetenzen</h2></div><p class="section-note" data-en="Technical architecture, clear requirements and robust verification throughout the development process.">Technische Architektur, klare Anforderungen und belastbare Absicherung über den Entwicklungsprozess hinweg.</p></div>
+        <div class="skills-grid">
+          <article class="skill"><h3 data-en="E/E Systems and Functional Architecture">E/E-System- und Funktionsarchitektur</h3><p data-en="Designing system relationships and functions in a structured way.">Systemzusammenhänge und Funktionen strukturiert konzipieren.</p></article>
+          <article class="skill"><h3>MBSE · SysML · PREEvision</h3><p data-en="Using models as the foundation for traceable development.">Modelle als Grundlage für eine nachvollziehbare Entwicklung nutzen.</p></article>
+          <article class="skill"><h3>Requirements Engineering · Traceability</h3><p data-en="Connecting requirements, functions and architecture artefacts throughout development.">Anforderungen, Funktionen und Architekturartefakte durchgängig verknüpfen.</p></article>
+          <article class="skill"><h3>ADAS · Autonomous Driving Level 4</h3><p data-en="Connected driver assistance systems and concepts for automated driving.">Vernetzte Fahrerassistenzsysteme und Konzepte für hochautomatisiertes Fahren.</p></article>
+          <article class="skill"><h3 data-en="Bus and Communication Topologies">Bus- und Kommunikationstopologien</h3><p data-en="Analysing and evaluating communication and interface structures.">Kommunikations- und Schnittstellenstrukturen analysieren und bewerten.</p></article>
+          <article class="skill"><h3 data-en="Testing · Data Loggers · Fault Analysis">Test · Datenlogger · Fehleranalyse</h3><p data-en="Evaluating performance and development tests and analysing faults across functions.">Leistungs- und Entwicklungstests auswerten und Fehler funktionsübergreifend analysieren.</p></article>
+        </div>
+      </section>
+
+      <section id="berufserfahrung" class="section" aria-labelledby="career-title">
+        <div class="section-heading"><div><span class="eyebrow" data-en="CAREER HISTORY">BERUFLICHER WERDEGANG</span><h2 id="career-title" data-en="Experience that connects">Erfahrung, die verbindet</h2></div><p class="section-note" data-en="Vehicle development, E/E systems and testing from different perspectives.">Fahrzeugentwicklung, E/E-Systeme und Erprobung aus unterschiedlichen Perspektiven.</p></div>
+        <div class="timeline">
+          <article class="timeline-item"><time class="timeline-date" datetime="2026-03" data-en="Since 03/2026">Seit 03/2026</time><div class="timeline-content"><h3><span data-en="Career Transition &amp; AI Engineer Training">Berufliche Neuorientierung &amp; Weiterbildung zum AI Engineer</span> <span class="current-label" data-en="Current">Aktuell</span></h3><p class="company">Magdeburg</p><ul><li data-en="Training scheduled for completion in mid-October 2026.">Weiterbildung mit geplantem Abschluss Mitte Oktober 2026.</li><li data-en="Deepening expertise in generative AI and applying it to MBSE, E/E systems architectures and AI-assisted model and data processing.">Vertiefung Generative AI und Transfer auf MBSE, E/E-Systemarchitekturen sowie KI-gestützte Modell- und Datenverarbeitung.</li><li data-en="Generative AI Expert (IHK): final examination in December 2026.">Generative AI Expert (IHK): Abschlussprüfung im Dezember 2026.</li></ul></div></article>
+          <article class="timeline-item"><time class="timeline-date" datetime="2020-06">06/2020 – 02/2026</time><div class="timeline-content"><h3 data-en="E/E Systems Architect &amp; Project Manager">E/E-Systemarchitekt &amp; Projektleiter</h3><p class="company">Magna Engineering &amp; Infotainment GmbH · Wolfsburg</p><ul><li data-en="Leading and contributing to projects involving driver information functions and modular driver assistance systems.">Leitung und Mitarbeit in Projekten zu Driver Information Functions und modularen Fahrerassistenzsystemen.</li><li data-en="Designing and modelling functions and system relationships in PREEvision; systematically linking requirements, functions and architecture artefacts.">Konzeption und Modellierung von Funktionen und Systemzusammenhängen in PREEvision; strukturierte Verknüpfung von Anforderungen, Funktionen und Architekturartefakten.</li><li data-en="Developing architecture concepts for Level 4 automated driving and contributing to a central E/E architecture.">Architekturkonzepte für hochautomatisiertes Fahren auf Level 4 und Mitarbeit an einer zentralen E/E-Architektur.</li><li data-en="Analysing and evaluating bus, communication and interface structures.">Analyse und Bewertung von Bus-, Kommunikations- und Schnittstellenstrukturen.</li><li data-en="Since 06/2025: data logger performance testing, evaluation and cross-functional fault analysis.">Seit 06/2025 Datenlogger-Performance-Tests, Auswertung und funktionsübergreifende Fehleranalyse.</li></ul></div></article>
+          <article class="timeline-item"><time class="timeline-date" datetime="2019-05">05/2019 – 06/2020</time><div class="timeline-content"><h3 data-en="Project Engineer">Projektingenieur</h3><p class="company" data-en="Brunel GmbH · Assignment at Magna Telemotive GmbH">Brunel GmbH · Einsatz bei Magna Telemotive GmbH</p><ul><li data-en="Evaluating and verifying the driver information function.">Bewertung und Absicherung der Driver Information Function.</li><li data-en="Testing, cross-functional fault analysis and responsibility for a subsystem.">Tests, funktionsübergreifende Fehleranalyse und Teilsystemverantwortung.</li></ul></div></article>
+          <article class="timeline-item"><time class="timeline-date" datetime="2018-04">04/2018 – 12/2018</time><div class="timeline-content"><h3 data-en="Project Engineer">Projektingenieur</h3><p class="company" data-en="Ferchau Engineering GmbH · Assignment at Porsche AG, Weissach">Ferchau Engineering GmbH · Einsatz bei Porsche AG, Weissach</p><ul><li data-en="Coordinating vehicles and carrying out technical assessments.">Steuerung und technische Beurteilung von Fahrzeugen.</li><li data-en="Recording, documenting and tracking issues.">Erfassung, Dokumentation und Nachverfolgung von Beanstandungen.</li></ul></div></article>
+          <article class="timeline-item"><time class="timeline-date" datetime="2016-10">10/2016 – 03/2018</time><div class="timeline-content"><h3 data-en="Test Engineer">Ingenieur in der Erprobung</h3><p class="company" data-en="Formel K GmbH · Quality Assurance for Audi AG">Formel K GmbH · Qualitätssicherung für Audi AG</p><ul><li data-en="Testing focused on chassis, braking systems and vehicle acoustics.">Erprobungsschwerpunkte in Fahrwerk, Bremstechnik und Fahrzeugakustik.</li><li data-en="Analysis and measurement drives, with structured documentation of results.">Analyse- und Messfahrten sowie strukturierte Ergebnisdokumentation.</li></ul></div></article>
+          <article class="timeline-item"><time class="timeline-date" datetime="2015-05">05/2015 – 04/2016</time><div class="timeline-content"><h3 data-en="Project Engineer">Projektingenieur</h3><p class="company" data-en="Hays Temp GmbH · Assignment at IAMT Engineering GmbH &amp; Co. KG">Hays Temp GmbH · Einsatz bei IAMT Engineering GmbH &amp; Co. KG</p><ul><li data-en="Contributing to chassis development.">Mitarbeit in der Fahrwerksentwicklung.</li></ul></div></article>
+          <article class="timeline-item"><time class="timeline-date" datetime="2001-01">01/2001 – 04/2015</time><div class="timeline-content"><h3 data-en="Industrial Mechanic">Industriemechaniker</h3><p class="company">DB Schenker Rail AG · Nürnberg / Braunschweig</p><ul><li data-en="Working as an industrial mechanic; from 2010, working as a student employee alongside part-time studies.">Tätigkeit als Industriemechaniker; ab 2010 parallel zum berufsbegleitenden Studium als Werkstudent.</li></ul></div></article>
+        </div>
+      </section>
+
+      <section id="ausbildung" class="section" aria-labelledby="education-title">
+        <div class="section-heading"><div><span class="eyebrow" data-en="EDUCATION &amp; STUDIES">AUSBILDUNG &amp; STUDIUM</span><h2 id="education-title" data-en="Technical Foundation">Technische Basis</h2></div></div>
+        <div class="education-grid">
+          <article class="education-item"><time>09/2010 – 08/2014</time><h3 data-en="Bachelor of Engineering · Automotive Engineering">Bachelor of Engineering · Automobiltechnik</h3><p data-en="Ostfalia University of Applied Sciences, Wolfsburg">Ostfalia – Hochschule für angewandte Wissenschaften, Wolfsburg</p></article>
+          <article class="education-item"><time>08/2004 – 07/2006</time><h3 data-en="State-Certified Technician · Mechanical Engineering">Staatlich geprüfter Techniker · Maschinentechnik</h3><p data-en="Technical College of the City of Braunschweig">Technikerschule der Stadt Braunschweig</p></article>
+          <article class="education-item"><time>09/1997 – 01/2001</time><h3 data-en="Apprenticeship as an Industrial Mechanic · Plant Engineering">Ausbildung zum Industriemechaniker · Betriebstechnik</h3><p>DB Regio AG Niedersachsen</p></article>
+        </div>
+      </section>
+
+      <section id="kenntnisse" class="section" aria-labelledby="knowledge-title">
+        <div class="section-heading"><div><span class="eyebrow" data-en="TRAINING &amp; KNOWLEDGE">WEITERBILDUNGEN &amp; KENNTNISSE</span><h2 id="knowledge-title" data-en="Tools and Methods">Werkzeuge und Methoden</h2></div></div>
+        <div class="details-grid">
+          <article class="detail-group"><h3 data-en="Professional Training">Weiterbildungen</h3><p data-en="AI Engineer (in progress, completion in mid-October 2026) · Systems Engineering · Ethernet · Cyber Security">AI Engineer (laufend, Abschluss Mitte Oktober 2026) · Systems Engineering · Ethernet · Cyber Security</p></article>
+          <article class="detail-group"><h3 data-en="Methods">Methoden</h3><p data-en="MBSE · SysML · Requirements Engineering · Traceability · Function Modelling · E/E Architecture">MBSE · SysML · Requirements Engineering · Traceability · Funktionsmodellierung · E/E-Architektur</p></article>
+          <article class="detail-group"><h3>Tools</h3><p>Vector PREEvision · Vector CANoe · Wireshark · codebeamer · Java · CATIA V5 · SAP · Microsoft Office</p></article>
+          <article class="detail-group"><h3 data-en="Languages">Sprachen</h3><p data-en="German (native) · English (advanced knowledge)">Deutsch (Muttersprache) · Englisch (erweiterte Kenntnisse)</p></article>
+          <article class="detail-group"><h3 data-en="Driving Licences">Fahrerlaubnis</h3><p data-en="A · B · BE · C1 · C1E · CE up to 12 t · Volkswagen AG prototype driving licence C">A · B · BE · C1 · C1E · CE bis 12 t · Prototypenführerschein C der Volkswagen AG</p></article>
+          <article class="detail-group"><h3 data-en="Drone Licences">Drohnen-Lizenzen</h3><p data-en="EASA certificates of competency A1/A3 and A2">EASA-Kompetenznachweis A1/A3 und A2</p></article>
+        </div>
+        <div class="personal-row"><span><strong data-en="Born:">Geboren:</strong> <span data-en="29 January 1979 in Helmstedt">29.01.1979 in Helmstedt</span></span><span><strong data-en="Nationality:">Staatsangehörigkeit:</strong> <span data-en="German">deutsch</span></span><span><strong data-en="Address:">Anschrift:</strong> Rodensleber Weg 20 · 39110 Magdeburg</span></div>
+      </section>
+
+      <section class="contact-band" aria-label="Kontakt" data-en-aria-label="Contact">
+        <div><h2 data-en="Let’s start a conversation.">Lassen Sie uns ins Gespräch kommen.</h2><p data-en="To discuss E/E architecture, MBSE and GenAI.">Für Austausch zu E/E-Architektur, MBSE und GenAI.</p></div>
+        <a href="mailto:martin-j.drexler@web.de" data-en="Get in touch ↗">Kontakt aufnehmen ↗</a>
+      </section>
+    </main>
+    <footer><span data-en="Magdeburg, 14 October 2026">Magdeburg, 14. Oktober 2026</span><span class="footer-name">Martin Drexler</span></footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+--- before/index.html
++++ after/index.html
+@@ -9,7 +9,7 @@
+   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%2361765c'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Georgia' font-size='31' fill='%23fff8ed'%3EMD%3C/text%3E%3C/svg%3E">
+   <link rel="stylesheet" href="/styles.css">
+   <style>
+-    .motivation-page{border-top:1px solid var(--line);padding-top:38px}
++    .motivation-page{border-top:0;padding-top:0;margin-bottom:38px}
+     .motivation-header{display:flex;justify-content:space-between;gap:24px;align-items:flex-start;margin-bottom:28px}
+     .motivation-header h2{font-size:28px;line-height:1.2;margin:7px 0 8px;max-width:620px}
+     .motivation-header p,.motivation-address{color:var(--muted);margin:0;font-size:13px}
+@@ -24,7 +24,8 @@
+     .motivation-signoff{margin-top:24px}
+     .motivation-signoff strong{display:block;margin-top:14px;font-size:16px}
+     @media print{
+-      .motivation-page{break-before:page;page-break-before:always;break-inside:auto;padding-top:0;border:0}
++      .motivation-page{break-before:auto;page-break-before:auto;break-inside:auto;padding-top:0;margin-bottom:0;border:0}
++      #profil{break-before:page;page-break-before:always}
+       .motivation-header{margin-bottom:18px}
+       .motivation-header h2{font-size:24pt}
+       .motivation-claim{font-size:17pt;margin:18px 0;padding:14px 18px;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+@@ -35,23 +36,48 @@
+   <script type="module" src="/app.js"></script>
+ </head>
+ <body>
+-  <a class="skip-link" href="#main">Zum Lebenslauf</a>
++  <a class="skip-link" href="#main">Zum Inhalt</a>
+   <aside class="sidebar" aria-label="Lebenslauf-Navigation">
+-    <a class="brand" href="#profil"><span class="brand-icon">MD</span><span>Martin Drexler<small>E/E-SYSTEMARCHITEKTUR</small></span></a>
+-    <div class="nav-label">PROFIL &amp; WERDEGANG</div>
++    <a class="brand" href="#motivation"><span class="brand-icon">MD</span><span>Martin Drexler<small>E/E-SYSTEMARCHITEKTUR</small></span></a>
++    <div class="nav-label">MOTIVATION &amp; WERDEGANG</div>
+     <nav aria-label="Abschnitte">
+-      <a class="nav-item active" href="#profil" aria-current="location">Profil</a>
++      <a class="nav-item active" href="#motivation" aria-current="location">Motivation</a>
++      <a class="nav-item" href="#profil">Profil</a>
+       <a class="nav-item" href="#kompetenzen">Kernkompetenzen</a>
+       <a class="nav-item" href="#berufserfahrung">Berufserfahrung</a>
+       <a class="nav-item" href="#ausbildung">Ausbildung &amp; Studium</a>
+       <a class="nav-item" href="#kenntnisse">Kenntnisse</a>
+-      <a class="nav-item" href="#motivation">Motivation</a>
+     </nav>
+     <div class="sidebar-meta"><span class="meta-mark" aria-hidden="true">✳</span><strong>Systeme verstehen.</strong><p>Architektur, Funktion und Entwicklung zusammenbringen.</p></div>
+   </aside>
+   <div class="workspace">
+-    <header class="topbar"><strong id="breadcrumb">Profil</strong><div class="top-actions"><button id="print-button" class="print-button" type="button">Drucken / PDF</button><span class="avatar" aria-label="Martin Drexler">MD</span></div></header>
++    <header class="topbar"><strong id="breadcrumb">Motivation</strong><div class="top-actions"><button id="print-button" class="print-button" type="button">Drucken / PDF</button><span class="avatar" aria-label="Martin Drexler">MD</span></div></header>
+     <main id="main">
++      <section id="motivation" class="section motivation-page" aria-labelledby="motivation-title">
++        <div class="motivation-sender">
++          <strong>Martin Drexler</strong>
++          <span>Rodensleber Weg 20 · 39110 Magdeburg</span>
++          <span><a href="tel:+491723914882">+49 172 3914882</a> · <a href="mailto:martin-j.drexler@web.de">martin-j.drexler@web.de</a></span>
++        </div>
++        <div class="motivation-header">
++          <div>
++            <span class="eyebrow">MOTIVATION</span>
++            <h2 id="motivation-title">Motivationsschreiben</h2>
++          </div>
++          <time class="motivation-date" datetime="2026-10-12">Magdeburg, 12. Oktober 2026</time>
++        </div>
++        <p class="motivation-claim">Ich verbinde belastbare Systemarchitektur mit intelligenter Softwareentwicklung, damit komplexe technische Systeme nachvollziehbar, sicher und zukunftsfähig werden.</p>
++        <div class="motivation-copy">
++          <p>Sehr geehrte Damen und Herren,</p>
++          <p>die Verbindung von Systems Engineering, digitaler Systemarchitektur und künstlicher Intelligenz prägt meinen beruflichen Weg. Als E/E-Systemarchitekt und Projektleiter bringe ich mehr als zehn Jahre Erfahrung in der Entwicklung komplexer Systeme mit. Diese Perspektive möchte ich in neue Aufgaben einbringen und um aktuelle digitale Methoden erweitern.</p>
++          <p>In meiner bisherigen Tätigkeit konzipierte und modellierte ich Fahrzeug-, Fahrerassistenz- und Informationsfunktionen in modernen MBSE-Toolchains. Dazu gehörten modulare Fahrerassistenzsysteme, Architekturkonzepte für hochautomatisiertes Fahren auf Level 4 sowie die Analyse von Bus- und Kommunikationsstrukturen.</p>
++          <p>Meine besondere Stärke liegt an der Schnittstelle von Requirements Engineering, Funktionsentwicklung und technischer Architektur: Ich überführe komplexe Anforderungen in nachvollziehbare Modelle und sichere die Traceability von Anforderungen über Funktionen und Schnittstellen bis zu Tests und technischen Nachweisen. Mit SysML und PREEvision mache ich Zusammenhänge transparent und unterstütze fundierte Architekturentscheidungen.</p>
++          <p>Durch Entwicklungs- und Leistungstests, Datenlogger-Auswertungen und funktionsübergreifende Fehleranalysen kenne ich zugleich das reale Systemverhalten und die Anforderungen an seine Absicherung. Aktuell vertiefe ich meine Kenntnisse als AI Engineer in Generativer KI, Machine Learning, Datenverarbeitung und Python. In eigenen Projekten verbinde ich diese Methoden bereits mit MBSE, Requirements Engineering, Test, Safety und Security sowie der Analyse komplexer Kommunikationssysteme.</p>
++          <p>Mein Ziel ist es, Systemengineering und praktische Entwicklung mit Digitalisierung und künstlicher Intelligenz zusammenzuführen. Ich bringe dafür sowohl die Erfahrung eines Systemingenieurs als auch die Umsetzungsperspektive eines praxisorientierten Software- und KI-Entwicklers mit. Nach meiner beruflichen Neuorientierung stehe ich für neue Aufgaben kurzfristig zur Verfügung. Meine Projekte und technischen Konzepte erläutere ich gerne in einem persönlichen Gespräch.</p>
++          <div class="motivation-signoff"><p>Mit freundlichen Grüßen</p><strong>Martin Drexler</strong></div>
++        </div>
++      </section>
++
+       <section id="profil" class="hero" aria-labelledby="name">
+         <div>
+           <span class="eyebrow">E/E-SYSTEMARCHITEKTUR · MBSE · GENAI</span>
+@@ -115,31 +141,6 @@
+         <div class="personal-row"><span><strong>Geboren:</strong> 29.01.1979 in Helmstedt</span><span><strong>Staatsangehörigkeit:</strong> deutsch</span><span><strong>Anschrift:</strong> Rodensleber Weg 20 · 39110 Magdeburg</span></div>
+       </section>
+ 
+-      <section id="motivation" class="section motivation-page" aria-labelledby="motivation-title">
+-        <div class="motivation-sender">
+-          <strong>Martin Drexler</strong>
+-          <span>Rodensleber Weg 20 · 39110 Magdeburg</span>
+-          <span><a href="tel:+491723914882">+49 172 3914882</a> · <a href="mailto:martin-j.drexler@web.de">martin-j.drexler@web.de</a></span>
+-        </div>
+-        <div class="motivation-header">
+-          <div>
+-            <span class="eyebrow">MOTIVATION</span>
+-            <h2 id="motivation-title">Motivationsschreiben</h2>
+-          </div>
+-          <time class="motivation-date" datetime="2026-10-12">Magdeburg, 12. Oktober 2026</time>
+-        </div>
+-        <p class="motivation-claim">Ich verbinde belastbare Systemarchitektur mit intelligenter Softwareentwicklung, damit komplexe technische Systeme nachvollziehbar, sicher und zukunftsfähig werden.</p>
+-        <div class="motivation-copy">
+-          <p>Sehr geehrte Damen und Herren,</p>
+-          <p>die Verbindung von Systems Engineering, digitaler Systemarchitektur und künstlicher Intelligenz prägt meinen beruflichen Weg. Als E/E-Systemarchitekt und Projektleiter bringe ich mehr als zehn Jahre Erfahrung in der Entwicklung komplexer Systeme mit. Diese Perspektive möchte ich in neue Aufgaben einbringen und um aktuelle digitale Methoden erweitern.</p>
+-          <p>In meiner bisherigen Tätigkeit konzipierte und modellierte ich Fahrzeug-, Fahrerassistenz- und Informationsfunktionen in modernen MBSE-Toolchains. Dazu gehörten modulare Fahrerassistenzsysteme, Architekturkonzepte für hochautomatisiertes Fahren auf Level 4 sowie die Analyse von Bus- und Kommunikationsstrukturen.</p>
+-          <p>Meine besondere Stärke liegt an der Schnittstelle von Requirements Engineering, Funktionsentwicklung und technischer Architektur: Ich überführe komplexe Anforderungen in nachvollziehbare Modelle und sichere die Traceability von Anforderungen über Funktionen und Schnittstellen bis zu Tests und technischen Nachweisen. Mit SysML und PREEvision mache ich Zusammenhänge transparent und unterstütze fundierte Architekturentscheidungen.</p>
+-          <p>Durch Entwicklungs- und Leistungstests, Datenlogger-Auswertungen und funktionsübergreifende Fehleranalysen kenne ich zugleich das reale Systemverhalten und die Anforderungen an seine Absicherung. Aktuell vertiefe ich meine Kenntnisse als AI Engineer in Generativer KI, Machine Learning, Datenverarbeitung und Python. In eigenen Projekten verbinde ich diese Methoden bereits mit MBSE, Requirements Engineering, Test, Safety und Security sowie der Analyse komplexer Kommunikationssysteme.</p>
+-          <p>Mein Ziel ist es, Systemengineering und praktische Entwicklung mit Digitalisierung und künstlicher Intelligenz zusammenzuführen. Ich bringe dafür sowohl die Erfahrung eines Systemingenieurs als auch die Umsetzungsperspektive eines praxisorientierten Software- und KI-Entwicklers mit. Nach meiner beruflichen Neuorientierung stehe ich für neue Aufgaben kurzfristig zur Verfügung. Meine Projekte und technischen Konzepte erläutere ich gerne in einem persönlichen Gespräch.</p>
+-          <div class="motivation-signoff"><p>Mit freundlichen Grüßen</p><strong>Martin Drexler</strong></div>
+-        </div>
+-      </section>
+-
+       <section class="contact-band" aria-label="Kontakt">
+         <div><h2>Lassen Sie uns ins Gespräch kommen.</h2><p>Für Austausch zu E/E-Architektur, MBSE und GenAI.</p></div>
+         <a href="mailto:martin-j.drexler@web.de">Kontakt aufnehmen ↗</a>

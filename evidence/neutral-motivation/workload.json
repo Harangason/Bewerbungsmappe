@@ -1,0 +1,104 @@
+{
+  "repository": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2",
+  "kind": "implementation",
+  "modify_code": true,
+  "revision_before": {
+    "lernstudio-zweit/dist/index.html": "7a39a07b142ee015645e499ad42869e2b95e326b3711be1e2915252bb225cac4"
+  },
+  "required_outcomes": [
+    "neutral_motivation"
+  ],
+  "validation_requirements": [
+    "content_and_scope"
+  ],
+  "unresolved_decisions": [],
+  "files_changed": [
+    "lernstudio-zweit/dist/index.html"
+  ],
+  "before": [
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\neutral-motivation\\before.html",
+      "sha256": "7a39a07b142ee015645e499ad42869e2b95e326b3711be1e2915252bb225cac4"
+    }
+  ],
+  "after": [
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\neutral-motivation\\after.html",
+      "sha256": "de5a0cbad0d7c6696a99a8cab16eef17114dfa584a4b83ec99fe028fb3d46d83"
+    }
+  ],
+  "diff": [
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\neutral-motivation\\diff.patch",
+      "sha256": "78b671a2470e3b0227e8450efe6e690fb3e454663c62ad50035404eee55b43e3"
+    }
+  ],
+  "outcomes": {
+    "neutral_motivation": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\neutral-motivation\\validation.json",
+          "sha256": "793d379b5ec94a0e7cdb9df1e4e9fdda3637fabba8b76e0789a14423393c934b"
+        }
+      ]
+    }
+  },
+  "validations": {
+    "content_and_scope": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\neutral-motivation\\validation.json",
+          "sha256": "793d379b5ec94a0e7cdb9df1e4e9fdda3637fabba8b76e0789a14423393c934b"
+        }
+      ]
+    }
+  },
+  "remaining_findings": [],
+  "delivery": {
+    "decision": "YES",
+    "authorization": "User requested neutral content on the local portfolio; server reads the edited canonical HTML directly.",
+    "target": "http://localhost:25001/#motivation",
+    "tested_version": "de5a0cbad0d7c6696a99a8cab16eef17114dfa584a4b83ec99fe028fb3d46d83",
+    "running_version": "de5a0cbad0d7c6696a99a8cab16eef17114dfa584a4b83ec99fe028fb3d46d83",
+    "checks": {
+      "release": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\neutral-motivation\\validation.json",
+            "sha256": "793d379b5ec94a0e7cdb9df1e4e9fdda3637fabba8b76e0789a14423393c934b"
+          }
+        ]
+      },
+      "deployment": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\neutral-motivation\\validation.json",
+            "sha256": "793d379b5ec94a0e7cdb9df1e4e9fdda3637fabba8b76e0789a14423393c934b"
+          }
+        ]
+      },
+      "health": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\neutral-motivation\\validation.json",
+            "sha256": "793d379b5ec94a0e7cdb9df1e4e9fdda3637fabba8b76e0789a14423393c934b"
+          }
+        ]
+      },
+      "functional": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\neutral-motivation\\validation.json",
+            "sha256": "793d379b5ec94a0e7cdb9df1e4e9fdda3637fabba8b76e0789a14423393c934b"
+          }
+        ]
+      }
+    }
+  }
+}

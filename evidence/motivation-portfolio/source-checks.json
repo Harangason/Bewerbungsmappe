@@ -1,0 +1,11 @@
+{
+  "changes_confined_to_project_section": true,
+  "prominent_link_in_block_03": true,
+  "four_project_names_and_urls_match_public_source": true,
+  "experimental_and_draft_status_preserved": true,
+  "html_structure": "PASSED",
+  "served_versions": {
+    "lernstudio-zweit/dist/index.html": "5843fd42fe9df7cdb2cf1186da08d035f78bb1f90d066cb9c9d8383c59f35b59",
+    "lernstudio-zweit/dist/cv.css": "b08a66ce4f8510ba8e5fcd23e9deca44d9537e05840283d9d30c4762569e8b64"
+  }
+}

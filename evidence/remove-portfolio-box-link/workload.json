@@ -1,0 +1,114 @@
+{
+  "repository": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2",
+  "kind": "implementation",
+  "modify_code": true,
+  "revision_before": {
+    "lernstudio-zweit/dist/index.html": "9e8eda0bf3492c4a706bb9f653801558e37bfa225d51e55cc83d7391f40e8d4a",
+    "lernstudio-zweit/dist/cv.css": "0ee11996a89649deca95bea903f18a4a1bc7675ba38692494991ebf3f8507edc"
+  },
+  "required_outcomes": [
+    "remove_link_from_personal_projects_box"
+  ],
+  "validation_requirements": [
+    "scope_and_served_content"
+  ],
+  "unresolved_decisions": [],
+  "files_changed": [
+    "lernstudio-zweit/dist/index.html",
+    "lernstudio-zweit/dist/cv.css"
+  ],
+  "before": [
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\remove-portfolio-box-link\\before-index.html",
+      "sha256": "9e8eda0bf3492c4a706bb9f653801558e37bfa225d51e55cc83d7391f40e8d4a"
+    },
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\remove-portfolio-box-link\\before-cv.css",
+      "sha256": "0ee11996a89649deca95bea903f18a4a1bc7675ba38692494991ebf3f8507edc"
+    }
+  ],
+  "after": [
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\remove-portfolio-box-link\\after-index.html",
+      "sha256": "9ff15cd577e6e5b3ed381f923043d47033bed742a4b43a102b48c54d1b1057dc"
+    },
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\remove-portfolio-box-link\\after-cv.css",
+      "sha256": "70f25a7f15ab04f8017fd0186de163244d536672fdf4c6364d94cedd56da4d9e"
+    }
+  ],
+  "diff": [
+    {
+      "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\remove-portfolio-box-link\\diff.patch",
+      "sha256": "dae61f71a7ef37e518a2a1a99c9db6612477325a0a74e0eded4377091dfdf04d"
+    }
+  ],
+  "outcomes": {
+    "remove_link_from_personal_projects_box": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\remove-portfolio-box-link\\validation.json",
+          "sha256": "14d03bf13af534f52a047647ea0f89dcbe2e21f34722871af3f4062e5bd2b9c7"
+        }
+      ]
+    }
+  },
+  "validations": {
+    "scope_and_served_content": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\remove-portfolio-box-link\\validation.json",
+          "sha256": "14d03bf13af534f52a047647ea0f89dcbe2e21f34722871af3f4062e5bd2b9c7"
+        }
+      ]
+    }
+  },
+  "remaining_findings": [],
+  "delivery": {
+    "decision": "YES",
+    "authorization": "User explicitly requested removing the link from box 03 of the local motivation page.",
+    "target": "http://localhost:25001/motivation",
+    "tested_version": "dfcfe424f5279fec1f28a2234d5e6350ff8573b9ccff8e76d114fd3cdfd8c74e",
+    "running_version": "dfcfe424f5279fec1f28a2234d5e6350ff8573b9ccff8e76d114fd3cdfd8c74e",
+    "checks": {
+      "release": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\remove-portfolio-box-link\\validation.json",
+            "sha256": "14d03bf13af534f52a047647ea0f89dcbe2e21f34722871af3f4062e5bd2b9c7"
+          }
+        ]
+      },
+      "deployment": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\remove-portfolio-box-link\\validation.json",
+            "sha256": "14d03bf13af534f52a047647ea0f89dcbe2e21f34722871af3f4062e5bd2b9c7"
+          }
+        ]
+      },
+      "health": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\remove-portfolio-box-link\\validation.json",
+            "sha256": "14d03bf13af534f52a047647ea0f89dcbe2e21f34722871af3f4062e5bd2b9c7"
+          }
+        ]
+      },
+      "functional": {
+        "status": "PASSED",
+        "evidence": [
+          {
+            "path": "H:\\OneDrive\\AI_with_Python\\Masterschool\\MOCKUP\\Mockup 2\\lernstudio-zweit\\evidence\\remove-portfolio-box-link\\validation.json",
+            "sha256": "14d03bf13af534f52a047647ea0f89dcbe2e21f34722871af3f4062e5bd2b9c7"
+          }
+        ]
+      }
+    }
+  }
+}

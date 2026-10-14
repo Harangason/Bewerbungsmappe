@@ -1,0 +1,25 @@
+--- before/index.html
++++ after/index.html
+@@ -14,10 +14,6 @@
+     .motivation-header h2{font-size:28px;line-height:1.2;margin:7px 0 8px;max-width:620px}
+     .motivation-header p,.motivation-address{color:var(--muted);margin:0;font-size:13px}
+     .motivation-date{white-space:nowrap;color:var(--muted);font-size:13px;padding-top:4px}
+-    .motivation-sender{display:grid;gap:2px;margin-bottom:24px;padding-bottom:15px;border-bottom:1px solid var(--line);font-size:12px;color:var(--muted)}
+-    .motivation-sender strong{font-size:16px;color:var(--ink)}
+-    .motivation-sender a{text-decoration:none}
+-    .motivation-sender a:hover{text-decoration:underline}
+     .motivation-claim{margin:26px 0;padding:20px 24px;border-left:4px solid var(--rust);background:var(--peach);font-family:Georgia,serif;font-size:22px;line-height:1.4;color:var(--ink)}
+     .motivation-copy{max-width:780px}
+     .motivation-copy p{margin:0 0 14px}
+@@ -54,11 +50,6 @@
+     <header class="topbar"><strong id="breadcrumb">Motivation</strong><div class="top-actions"><button id="print-button" class="print-button" type="button">Drucken / PDF</button><span class="avatar" aria-label="Martin Drexler">MD</span></div></header>
+     <main id="main">
+       <section id="motivation" class="section motivation-page" aria-labelledby="motivation-title">
+-        <div class="motivation-sender">
+-          <strong>Martin Drexler</strong>
+-          <span>Rodensleber Weg 20 · 39110 Magdeburg</span>
+-          <span><a href="tel:+491723914882">+49 172 3914882</a> · <a href="mailto:martin-j.drexler@web.de">martin-j.drexler@web.de</a></span>
+-        </div>
+         <div class="motivation-header">
+           <div>
+             <span class="eyebrow">MOTIVATION</span>
