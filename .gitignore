@@ -1,3 +1,10 @@
 /server.log
 /server-error.log
 /server.pid
+/_site/
+/private/
+/.env
+/.env.*
+!/.env.example
+/.vercel/
+/node_modules/

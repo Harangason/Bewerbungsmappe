@@ -11,6 +11,7 @@ const assets = new Map([
   ['/', ['index.html', 'text/html']], ['/index.html', ['index.html', 'text/html']],
   ['/motivation', ['index.html', 'text/html']], ['/motivation/', ['index.html', 'text/html']],
   ['/styles.css', ['cv.css', 'text/css']], ['/app.js', ['cv.js', 'text/javascript']],
+  ['/activity.js', ['activity.js', 'text/javascript']],
 ]);
 
 const handler = async (req, res) => {

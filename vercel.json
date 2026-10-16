@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "node scripts/build-pages.mjs",
+  "outputDirectory": "_site",
+  "rewrites": [
+    { "source": "/motivation", "destination": "/index.html" },
+    { "source": "/motivation/", "destination": "/index.html" }
+  ]
+}

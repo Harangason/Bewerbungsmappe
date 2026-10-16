@@ -56,7 +56,7 @@ function setLanguage(language, remember = false) {
     button.setAttribute('aria-pressed', String(button.dataset.language === currentLanguage));
   });
   document.querySelectorAll('[data-local-page]').forEach(link => {
-    const url = new URL(link.dataset.localPage, window.location.origin);
+    const url = new URL(link.dataset.localPage, new URL('.', import.meta.url));
     url.searchParams.set('lang', currentLanguage);
     link.setAttribute('href', `${url.pathname}${url.search}${url.hash}`);
   });

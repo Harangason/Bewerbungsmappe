@@ -1,0 +1,12 @@
+{
+  "syntax": "PASSED",
+  "build": "PASSED",
+  "publicFiles": [
+    "activity.js",
+    "app.js",
+    "index.html",
+    "styles.css"
+  ],
+  "apiEntry": "PASSED",
+  "unauthenticatedExport": 401
+}

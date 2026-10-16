@@ -1,0 +1,314 @@
+{
+  "repository": "I:\\Bewerbungsmappe_Online",
+  "kind": "implementation",
+  "modify_code": true,
+  "goal_id": "private-activity",
+  "project_scope": "Vercel application-martin-drexler.vercel.app",
+  "requested_change": "Private activity counter, JSON export, rolling three calendar months",
+  "constraints": [
+    "No public counter or public JSON",
+    "Preserve existing user edits",
+    "No deployment without approval"
+  ],
+  "revision_before": {
+    ".gitignore": "77cc2fd36188b2d2606060304fd7d8b8cad0bb27a66887b1e6c7a249c0ddb2ab",
+    "README.md": "e5bfe509933d52e44dcfdca2c88cd25bb8aff783df9861d78a5b4ad392fc27d6",
+    "server.mjs": "06ed3f99507b617cc5c291732a841543b6cdaa973988d589ebca751babbf4511",
+    "dist/index.html": "2d9e947aaa19303448a046ffc9efb32df80277c23666e8c6b585452eeba9cd1f",
+    "dist/activity.js": "8dcecab9fd00b7fdce9df39011dbaabf264d074a6c02a207515835e17db8a479",
+    "scripts/build-pages.mjs": "6f579ac5a5c5b86edb3be322998e33d9a9d8a3c685e56a476eedcf810233bb13",
+    "scripts/build-pages.test.mjs": "dd63db2b5e4e321e7bac1cb1f1c2bd417d131839197178ab34b77add630b7781",
+    "scripts/activity.test.mjs": "9479285569eb57b60fc7f11b644bb7262326b07854187c25e4fd61ac8c81669c",
+    "scripts/export-activity.mjs": "0a671fa90c3d86a9a4d27265829de70a216bd66e1a4573306328ce7428113720",
+    "api/activity.mjs": "82327170a9678a62c2b70b694705cda4e7e26110c2e95a965d4c74e4f444fdde",
+    "lib/activity.mjs": "771cd9ce47bf8fed3b8ee48a1bd965a5d1dbc38ab663f4779229a615cdb3fa72",
+    "vercel.json": "8e8fbd097703304cc8c567a615e9bbaf9344353b03d16b35da17b31dd5ea318f",
+    ".env.example": "06a70b15391cb90449fa30605e356c69793d46f501a7b461e6fdf56341792b0b"
+  },
+  "required_outcomes": [
+    "activity_capture",
+    "private_json",
+    "three_month_retention",
+    "static_export_preserved"
+  ],
+  "validation_requirements": [
+    "activity_tests",
+    "pages_tests",
+    "syntax_build"
+  ],
+  "unresolved_decisions": [],
+  "implementation_plan": [
+    "Vercel API using persistent Redis JSON values and expiry",
+    "Invisible production-only activity client",
+    "Authenticated export CLI",
+    "Tests and setup documentation"
+  ],
+  "files_inspected": [
+    "server.mjs",
+    "scripts/build-pages.mjs",
+    "dist/cv.js",
+    "README.md"
+  ],
+  "delivery": {
+    "decision": "YES",
+    "target": "https://application-martin-drexler.vercel.app",
+    "prerequisites": [
+      "Vercel project access (current scoped connector returns 403)",
+      "Connect Upstash Redis; configure server-only production variables",
+      "Explicit deployment approval"
+    ],
+    "production_verified": false,
+    "authorization": "User explicitly approved: Ja, nach Herstellung des Projektzugriffs einrichten und ver\u00f6ffentlichen (2026-10-16)."
+  },
+  "remaining_findings": [],
+  "repair": {
+    "root_cause": "Existing /#profil links are not rewritten by static exporter",
+    "first_failing_layer": "scripts/build-pages.mjs",
+    "owner": "PROJECT_PRODUCT",
+    "reproduction": "node --test scripts/build-pages.test.mjs",
+    "evidence": [
+      {
+        "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\build-finding.json",
+        "sha256": "453e2772eab01d6eb17e5f121070b6dcf2235060ea07cbac165b234602f62a51"
+      }
+    ],
+    "affected_files": [
+      "scripts/build-pages.mjs",
+      "scripts/build-pages.test.mjs"
+    ],
+    "acceptance_criteria": [
+      "Relative hash links remain inside project path",
+      "Existing exporter guard preserved",
+      "All activity and Pages tests pass"
+    ],
+    "targeted_tests": [
+      "node --test scripts/*.test.mjs"
+    ],
+    "weaken_assertions_to_pass": false
+  },
+  "files_changed": [
+    ".gitignore",
+    "README.md",
+    "server.mjs",
+    "dist/index.html",
+    "dist/activity.js",
+    "scripts/build-pages.mjs",
+    "scripts/build-pages.test.mjs",
+    "scripts/activity.test.mjs",
+    "scripts/export-activity.mjs",
+    "api/activity.mjs",
+    "lib/activity.mjs",
+    "vercel.json",
+    ".env.example"
+  ],
+  "before": [
+    {
+      "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\before-.gitignore",
+      "sha256": "9b2c70a1e5835cfc9cdaae53a225dd80bf625f9c7587b953fdf37581a1548877"
+    },
+    {
+      "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\before-README.md",
+      "sha256": "c262f9643da8c1e5feffe15c4d8c2f06424778ff052bcdd74ff7f345d1f8d323"
+    },
+    {
+      "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\before-server.mjs",
+      "sha256": "3d977442f88c65bd67be2a604c56ee7d6debd016a516b22463ca755d3853aba7"
+    },
+    {
+      "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\before-dist__index.html",
+      "sha256": "40c97dc5c866e1644469f10fd316c588156ed52057acffb7df3ae4d5123cedfc"
+    },
+    {
+      "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\before-dist__activity.js",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\before-scripts__build-pages.mjs",
+      "sha256": "72a6f817401bb0d98fa183c23b91066179c3cf901103e7be8a450bed8cf6d4dc"
+    },
+    {
+      "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\before-scripts__build-pages.test.mjs",
+      "sha256": "1d3b234f1e5da1eb11b3067f61e766dabd90ddc619e4046a0bb99b6cc4e43c22"
+    },
+    {
+      "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\before-scripts__activity.test.mjs",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\before-scripts__export-activity.mjs",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\before-api__activity.mjs",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\before-lib__activity.mjs",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\before-vercel.json",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\before-.env.example",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "after": [
+    {
+      "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\after-.gitignore",
+      "sha256": "77cc2fd36188b2d2606060304fd7d8b8cad0bb27a66887b1e6c7a249c0ddb2ab"
+    },
+    {
+      "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\after-README.md",
+      "sha256": "e5bfe509933d52e44dcfdca2c88cd25bb8aff783df9861d78a5b4ad392fc27d6"
+    },
+    {
+      "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\after-server.mjs",
+      "sha256": "06ed3f99507b617cc5c291732a841543b6cdaa973988d589ebca751babbf4511"
+    },
+    {
+      "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\after-dist__index.html",
+      "sha256": "2d9e947aaa19303448a046ffc9efb32df80277c23666e8c6b585452eeba9cd1f"
+    },
+    {
+      "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\after-dist__activity.js",
+      "sha256": "8dcecab9fd00b7fdce9df39011dbaabf264d074a6c02a207515835e17db8a479"
+    },
+    {
+      "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\after-scripts__build-pages.mjs",
+      "sha256": "f2bdd4f5a307eef33b142e6d09f7a26769a0faaa8c291060e3dfcb516ea143b9"
+    },
+    {
+      "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\after-scripts__build-pages.test.mjs",
+      "sha256": "9cfa573932e464d0ecbc78ca5bde67f7e2d9658659de850005d69d3e65d5346c"
+    },
+    {
+      "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\after-scripts__activity.test.mjs",
+      "sha256": "9479285569eb57b60fc7f11b644bb7262326b07854187c25e4fd61ac8c81669c"
+    },
+    {
+      "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\after-scripts__export-activity.mjs",
+      "sha256": "0a671fa90c3d86a9a4d27265829de70a216bd66e1a4573306328ce7428113720"
+    },
+    {
+      "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\after-api__activity.mjs",
+      "sha256": "82327170a9678a62c2b70b694705cda4e7e26110c2e95a965d4c74e4f444fdde"
+    },
+    {
+      "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\after-lib__activity.mjs",
+      "sha256": "771cd9ce47bf8fed3b8ee48a1bd965a5d1dbc38ab663f4779229a615cdb3fa72"
+    },
+    {
+      "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\after-vercel.json",
+      "sha256": "8e8fbd097703304cc8c567a615e9bbaf9344353b03d16b35da17b31dd5ea318f"
+    },
+    {
+      "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\after-.env.example",
+      "sha256": "06a70b15391cb90449fa30605e356c69793d46f501a7b461e6fdf56341792b0b"
+    }
+  ],
+  "diff": [
+    {
+      "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\diff.patch",
+      "sha256": "6be55cc54c5ef874d42be2b50d6485fe693065d4d36ae8a10735565a420f058d"
+    }
+  ],
+  "outcomes": {
+    "activity_capture": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\tests.tap",
+          "sha256": "f2847d79acdda003bac26f54420d4ef2fc0dddec905efcddd3e9b7e762700328"
+        },
+        {
+          "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\review.json",
+          "sha256": "af7d8df8bcfa8307106d3e000d5c46baa1aa673d31a43ef28527fe9f271c1b1b"
+        }
+      ]
+    },
+    "private_json": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\tests.tap",
+          "sha256": "f2847d79acdda003bac26f54420d4ef2fc0dddec905efcddd3e9b7e762700328"
+        },
+        {
+          "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\review.json",
+          "sha256": "af7d8df8bcfa8307106d3e000d5c46baa1aa673d31a43ef28527fe9f271c1b1b"
+        }
+      ]
+    },
+    "three_month_retention": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\tests.tap",
+          "sha256": "f2847d79acdda003bac26f54420d4ef2fc0dddec905efcddd3e9b7e762700328"
+        },
+        {
+          "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\review.json",
+          "sha256": "af7d8df8bcfa8307106d3e000d5c46baa1aa673d31a43ef28527fe9f271c1b1b"
+        }
+      ]
+    },
+    "static_export_preserved": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\tests.tap",
+          "sha256": "f2847d79acdda003bac26f54420d4ef2fc0dddec905efcddd3e9b7e762700328"
+        },
+        {
+          "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\review.json",
+          "sha256": "af7d8df8bcfa8307106d3e000d5c46baa1aa673d31a43ef28527fe9f271c1b1b"
+        }
+      ]
+    }
+  },
+  "validations": {
+    "activity_tests": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\tests.tap",
+          "sha256": "f2847d79acdda003bac26f54420d4ef2fc0dddec905efcddd3e9b7e762700328"
+        },
+        {
+          "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\review.json",
+          "sha256": "af7d8df8bcfa8307106d3e000d5c46baa1aa673d31a43ef28527fe9f271c1b1b"
+        }
+      ]
+    },
+    "pages_tests": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\tests.tap",
+          "sha256": "f2847d79acdda003bac26f54420d4ef2fc0dddec905efcddd3e9b7e762700328"
+        },
+        {
+          "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\review.json",
+          "sha256": "af7d8df8bcfa8307106d3e000d5c46baa1aa673d31a43ef28527fe9f271c1b1b"
+        }
+      ]
+    },
+    "syntax_build": {
+      "status": "PASSED",
+      "evidence": [
+        {
+          "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\preflight.json",
+          "sha256": "110629766a1ae8a09b52778e7d1eefed1a2cab581c7b0eab43ebd74c6818223e"
+        },
+        {
+          "path": "I:\\Bewerbungsmappe_Online\\evidence\\private-activity\\review.json",
+          "sha256": "af7d8df8bcfa8307106d3e000d5c46baa1aa673d31a43ef28527fe9f271c1b1b"
+        }
+      ]
+    }
+  },
+  "completion_status": "DEPLOYMENT_AUTHORIZED_ACCESS_PENDING"
+}

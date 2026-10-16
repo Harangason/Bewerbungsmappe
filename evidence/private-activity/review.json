@@ -1,0 +1,12 @@
+{
+  "scope": "Vercel production domain only, no visible UI changes",
+  "storage": "Server-only Redis JSON; per-value absolute expiry after three calendar months; no filesystem persistence on Vercel",
+  "auth": "Bearer token at least 32 characters; unauthenticated GET denied; no cache; no public credentials",
+  "retention_validation": "Calendar math and Redis command contract tested; live Redis and Vercel build/deploy not tested due missing access",
+  "existing_edits": "No edits to preexisting dist/cv.js changes; nested Bewerbungsmappe copy untouched",
+  "build_fix": "Existing /#profil URLs rewritten to project-relative URLs; root-relative-link guard preserved",
+  "external_setup": "Vercel scoped project lookup denied 403; no local Vercel CLI available; Redis connection and production variables not configured",
+  "local_test_result": "11/11 tests passed; 8 syntax checks passed; static build passed; entry point denies unauthenticated export",
+  "lint": "No configured linter; used node --check",
+  "production_status": "NOT_DEPLOYED"
+}

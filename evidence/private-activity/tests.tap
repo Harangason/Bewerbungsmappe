@@ -1,0 +1,77 @@
+TAP version 13
+# Private activity storage unavailable
+# Subtest: calendar-month retention handles month ends, leap years and UTC precision
+ok 1 - calendar-month retention handles month ends, leap years and UTC precision
+  ---
+  duration_ms: 2.5046
+  type: 'test'
+  ...
+# Subtest: event schema discards personal data and rejects arbitrary event values
+ok 2 - event schema discards personal data and rejects arbitrary event values
+  ---
+  duration_ms: 0.7436
+  type: 'test'
+  ...
+# Subtest: export is private, fails closed without a strong token and is never cached
+ok 3 - export is private, fails closed without a strong token and is never cached
+  ---
+  duration_ms: 18.8102
+  type: 'test'
+  ...
+# Subtest: production event reaches private JSON export and its counters
+ok 4 - production event reaches private JSON export and its counters
+  ---
+  duration_ms: 2.6247
+  type: 'test'
+  ...
+# Subtest: rejects wrong origins, malformed/oversized events and unsupported methods
+ok 5 - rejects wrong origins, malformed/oversized events and unsupported methods
+  ---
+  duration_ms: 2.4237
+  type: 'test'
+  ...
+# Subtest: disabled and preview deployments cannot record events; storage errors never expose details
+ok 6 - disabled and preview deployments cannot record events; storage errors never expose details
+  ---
+  duration_ms: 2.1402
+  type: 'test'
+  ...
+# Subtest: export bounds cannot reach older data, and large results are never silently truncated
+ok 7 - export bounds cannot reach older data, and large results are never silently truncated
+  ---
+  duration_ms: 1.2819
+  type: 'test'
+  ...
+# Subtest: Redis stores JSON with an independent absolute expiry and excludes expired records from export
+ok 8 - Redis stores JSON with an independent absolute expiry and excludes expired records from export
+  ---
+  duration_ms: 1.8691
+  type: 'test'
+  ...
+# Subtest: client records navigation and fixed click labels without URL queries or repeated section views
+ok 9 - client records navigation and fixed click labels without URL queries or repeated section views
+  ---
+  duration_ms: 2.0878
+  type: 'test'
+  ...
+# Subtest: client respects owner exclusion, privacy signals, local/preview hosts and GitHub Pages
+ok 10 - client respects owner exclusion, privacy signals, local/preview hosts and GitHub Pages
+  ---
+  duration_ms: 2.2589
+  type: 'test'
+  ...
+# Subtest: Pages publishes only the portfolio with links inside its project directory
+ok 11 - Pages publishes only the portfolio with links inside its project directory
+  ---
+  duration_ms: 42.3023
+  type: 'test'
+  ...
+1..11
+# tests 11
+# suites 0
+# pass 11
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 166.9466

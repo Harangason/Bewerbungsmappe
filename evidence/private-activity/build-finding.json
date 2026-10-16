@@ -1,0 +1,7 @@
+{
+  "first_failing_layer": "static exporter URL rewriting",
+  "reproduction": "node --test scripts/build-pages.test.mjs",
+  "root_cause": "Existing /#profil root-relative href and data-local-page are not rewritten by the exporter; the new Vercel build also needs a successful static export.",
+  "owner": "PROJECT_PRODUCT",
+  "required_fix": "Rewrite root-relative hash links to ./# links without weakening the no-root-relative-links assertion."
+}
